@@ -1,3 +1,4 @@
 *.gfo
 *.swp
 *~
+__pycache__

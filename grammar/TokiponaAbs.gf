@@ -1,7 +1,7 @@
 abstract TokiponaAbs = {
   flags startcat = Cl;
   cat
-    S; Cl; Subject; Predicate; N;
+    A; S; Cl; Subject; Predicate; N;
   fun
     MkS: Cl -> S;
     Clause: Subject -> Predicate -> Cl;
@@ -15,4 +15,10 @@ abstract TokiponaAbs = {
     Meli_N: N;
     Ni_N: N;
     Soweli_N: N;
+    Telo_N: N;
+    Tomo_N: N;
+
+    Lili_A: A;
+    Pona_A: A;
+    Suli_A: A;
 }

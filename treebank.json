@@ -1,0 +1,29 @@
+[
+  {
+    "en": "This is a person.",
+    "gf": "Clause (SubjN Ni_N) (PredN Jan_N)",
+    "id": "tplangL02E01",
+    "tp": "ni li jan ."
+  },
+  {
+    "en": "Water is good.",
+    "gf": "Clause (SubjN Telo_N) (PredN Pona_N)",
+    "id": "tplangL03E01",
+    "tp": "telo li pona ."
+  },
+  {
+    "en": "This person is tall.",
+    "id": "tplangL03E02",
+    "tp": "jan ni li suli ."
+  },
+  {
+    "en": "This is a friend.",
+    "id": "tplangL03T02",
+    "tp": "ni li jan pona ."
+  },
+  {
+    "en": "This is a book of animals.",
+    "id": "tplangL03O01",
+    "tp": "ni li lipu soweli ."
+  }
+]
