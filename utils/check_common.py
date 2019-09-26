@@ -7,10 +7,11 @@ from io import StringIO
 
 import common
 
-TREEBANK_FILE_NAME = "../treebank.json"
+THISDIR = os.path.dirname(__file__)
+TREEBANK_FILE_NAME = os.path.join(THISDIR, "../treebank.json")
 gf_cmd = "gf"
 gf_args = ["--run", "TokiponaAbs.gf", "Tokipona.gf"]
-gf_env = { "GF_LIB_PATH": "../grammar" }
+gf_env = { "GF_LIB_PATH": os.path.join(THISDIR, "../grammar")}
 
 re_filter = None
 try:
@@ -107,9 +108,7 @@ def check_expected_vs_result(expected, gf):
     return n_of_fails
 
 def load_treebank():
-    fname = os.path.dirname(__file__)
-    fname = os.path.join(fname, TREEBANK_FILE_NAME)
-    jtb = common.load_treebank(fname)
+    jtb = common.load_treebank(TREEBANK_FILE_NAME)
     if re_filter:
         jtb = grep_treebank(jtb, re_filter)
     return jtb
