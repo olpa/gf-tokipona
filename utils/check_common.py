@@ -7,7 +7,7 @@ from io import StringIO
 
 import common
 
-fname = "../treebank.json"
+TREEBANK_FILE_NAME = "../treebank.json"
 gf_cmd = "gf"
 gf_args = ["--run", "TokiponaAbs.gf", "Tokipona.gf"]
 gf_env = { "GF_LIB_PATH": "../grammar" }
@@ -78,12 +78,6 @@ def collect_tokipona(jtb):
 def collect_parses(jtb):
     return collect_field(jtb, "gf")
 
-def prepare_for_parse(i2tp):
-    i2c = {}
-    for (id_, tp) in i2tp.items():
-        i2c[id_] = 'parse "%s"' % tp
-    return i2c
-
 def check_expected_vs_result(expected, gf):
     n_of_fails = 0
     for (test_id, expected_result) in expected.items():
@@ -112,14 +106,20 @@ def check_expected_vs_result(expected, gf):
         print("test {}: {} but an expected value is not provided".format(key, result))
     return n_of_fails
 
-jtb = common.load_treebank(fname)
-if re_filter:
-    jtb = grep_treebank(jtb, re_filter)
-i2tp = collect_tokipona(jtb)
-i2gf = collect_parses(jtb)
-cmds = prepare_for_parse(i2tp)
-scr = mk_script(cmds)
-gfout = execute_gf(scr)
-i2r = parse_gf_output(StringIO(gfout))
-nerr = check_expected_vs_result(i2gf, i2r)
-sys.exit(nerr)
+def load_treebank():
+    fname = os.path.dirname(__file__)
+    fname = os.path.join(fname, TREEBANK_FILE_NAME)
+    jtb = common.load_treebank(fname)
+    if re_filter:
+        jtb = grep_treebank(jtb, re_filter)
+    return jtb
+
+def collect_tp_gf(jtb):
+    i2tp = collect_tokipona(jtb)
+    i2gf = collect_parses(jtb)
+    return (i2tp, i2gf)
+
+def run_gf_and_parse_output(cmds):
+    script = mk_script(cmds)
+    gfout = execute_gf(script)
+    return parse_gf_output(StringIO(gfout))
