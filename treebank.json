@@ -1,18 +1,19 @@
 [
   {
     "en": "This is a person.",
-    "gf": "Clause (SubjN Ni_N) (PredN Jan_N)",
+    "gf": "MkCl (MkNP Ni_N) (MkVPn Jan_N)",
     "id": "tplangL02E01",
     "tp": "ni li jan ."
   },
   {
     "en": "Water is good.",
-    "gf": "Clause (SubjN Telo_N) (PredN Pona_N)",
+    "gf": "MkCl (MkNP Telo_N) (MkVPa Pona_A)",
     "id": "tplangL03E01",
     "tp": "telo li pona ."
   },
   {
     "en": "This person is tall.",
+    "gf": "MkCl (MkNPna Jan_N Ni_A) (MkVPa Suli_A)",
     "id": "tplangL03E02",
     "tp": "jan ni li suli ."
   },

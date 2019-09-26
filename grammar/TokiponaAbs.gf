@@ -1,12 +1,14 @@
 abstract TokiponaAbs = {
   flags startcat = Cl;
   cat
-    A; S; Cl; Subject; Predicate; N;
+    A; S; Cl; NP; VP; N;
   fun
     MkS: Cl -> S;
-    Clause: Subject -> Predicate -> Cl;
-    SubjN: N -> Subject;
-    PredN: N -> Predicate;
+    MkCl: NP -> VP -> Cl;
+    MkNP: N -> NP;
+    MkNPna: N -> A -> NP;
+    MkVPn: N -> VP;
+    MkVPa: A -> VP;
     --
     Ijo_N: N;
     Jan_N: N;
@@ -21,4 +23,5 @@ abstract TokiponaAbs = {
     Lili_A: A;
     Pona_A: A;
     Suli_A: A;
+    Ni_A: A;
 }

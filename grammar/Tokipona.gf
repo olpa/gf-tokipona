@@ -1,11 +1,13 @@
 concrete Tokipona of TokiponaAbs = {
   lincat
-    A, S, Cl, Subject, Predicate, N = Str;
+    A, S, Cl, NP, VP, N = Str;
   lin
     MkS cl = cl;
-    Clause subj pred = subj ++ "li" ++ pred ++ ".";
-    SubjN n = n;
-    PredN n = n;
+    MkCl np vp = np ++ "li" ++ vp ++ ".";
+    MkNP n = n;
+    MkNPna n a = n ++ a;
+    MkVPn n = n;
+    MkVPa a = a;
     Ijo_N = "ijo";
     Jan_N = "jan";
     Kili_N = "kili";
@@ -19,4 +21,5 @@ concrete Tokipona of TokiponaAbs = {
     Lili_A = "lili";
     Pona_A = "pona";
     Suli_A = "suli";
+    Ni_A = "ni";
 }
