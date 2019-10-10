@@ -19,11 +19,13 @@
   },
   {
     "en": "This is a friend.",
+    "gf": "MkCl (MkNP Ni_N) (MkVPvpa (MkVPn Jan_N) Pona_A)",
     "id": "tplangL03T02",
     "tp": "ni li jan pona ."
   },
   {
     "en": "This is a book of animals.",
+    "gf": "MkCl (MkNP Ni_N) (MkVPvpn (MkVPn Lipu_N) Soweli_N)",
     "id": "tplangL03O01",
     "tp": "ni li lipu soweli ."
   }

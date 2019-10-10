@@ -9,6 +9,8 @@ abstract TokiponaAbs = {
     MkNPna: N -> A -> NP;
     MkVPn: N -> VP;
     MkVPa: A -> VP;
+    MkVPvpa: VP -> A -> VP;
+    MkVPvpn: VP -> N -> VP;
     --
     Ijo_N: N;
     Jan_N: N;
