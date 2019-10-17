@@ -6,13 +6,13 @@ abstract MiniatureGrammar = {
     S ; Cl ; NP ; VP ; AP ; CN ;
     Det ; N ; A ; V ; V2 ; AdA ; Tense ;
   fun
-    UseCl     : Tense -> Cl -> S ;
-    PredVP   : NP -> VP -> cL ;
+    UseCl   : Tense -> Cl -> S ;
+    PredVP  : NP -> VP -> Cl ;
     ComplV2 : V2 -> NP -> VP ;
-    DetCN : Det -> CN -> NP ;
-    AdjCN : AP -> CN -> CN ;
-    CompAP : AP -> VP ;
-    AdAP : AdA -> AP -> AP ;
+    DetCN   : Det -> CN -> NP ;
+    AdjCN   : AP -> CN -> CN ;
+    CompAP  : AP -> VP ;
+    AdAP    : AdA -> AP -> AP ;
 
     UseV : V -> VP ;
     UseN : N -> NP ;
@@ -28,8 +28,8 @@ abstract MiniatureGrammar = {
 
   -- coordination
   cat Conj ;
-  func
-    ConjS : Conj -> S -> S-> S ;
+  fun
+    ConjS  : Conj -> S -> S -> S ;
     ConjNP : Conj -> NP -> NP -> NP ;
     and_Conj, or_Conj : Conj ;
 }
