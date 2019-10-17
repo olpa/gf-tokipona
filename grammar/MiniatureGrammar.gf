@@ -4,10 +4,11 @@ abstract MiniatureGrammar = {
 
   cat
     S ; Cl ; NP ; VP ; AP ; CN ;
-    Det ; N ; A ; V ; V2 ; AdA ; Tense ;
+    Det ; N ; A ; V ; V2 ; AdA ;
   fun
-    UseCl   : Tense -> Cl -> S ;
+    UseCl   : Cl -> S ;
     PredVP  : NP -> VP -> Cl ;
+    PredNP  : NP -> NP -> Cl ;
     ComplV2 : V2 -> NP -> VP ;
     DetCN   : Det -> CN -> NP ;
     AdjCN   : AP -> CN -> CN ;
@@ -17,8 +18,6 @@ abstract MiniatureGrammar = {
     UseV : V -> VP ;
     UseN : N -> NP ;
     UseA : A -> AP ;
-
-    Pres, Perf : Tense ;
 
     a_Det, every_Det, the_Det : Det ;
     this_Det, these_Det : Det ;
