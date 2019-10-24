@@ -14,6 +14,7 @@ abstract MiniatureGrammar = {
     DetCN   : Det -> CN -> NP ;
     AdjCN   : AP -> CN -> CN ;
     AdjNP   : AP -> NP -> NP ;
+    AdjnpNP : NP -> NP -> NP ;
     CompAP  : AP -> VP ;
     AdAP    : AdA -> AP -> AP ;
 
