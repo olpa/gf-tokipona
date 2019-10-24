@@ -10,4 +10,5 @@ concrete MiniatureGrammarTok of MiniatureGrammar = open ResTok, Prelude in {
     UseA a = {s = a.s};
     PredNP np1 np2 = {s = np1.s ++ "li" ++ np2.s} ;
     PredAP np ap = {s = np.s ++ "li" ++ ap.s} ;
+    AdjNP ap np = {s = np.s ++ ap.s} ;
 }

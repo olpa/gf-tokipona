@@ -13,6 +13,7 @@ abstract MiniatureGrammar = {
     ComplV2 : V2 -> NP -> VP ;
     DetCN   : Det -> CN -> NP ;
     AdjCN   : AP -> CN -> CN ;
+    AdjNP   : AP -> NP -> NP ;
     CompAP  : AP -> VP ;
     AdAP    : AdA -> AP -> AP ;
 
