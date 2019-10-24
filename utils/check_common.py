@@ -10,7 +10,7 @@ import common
 THISDIR = os.path.dirname(__file__)
 TREEBANK_FILE_NAME = os.path.join(THISDIR, "../treebank.json")
 gf_cmd = "gf"
-gf_args = ["--run", "TokiponaAbs.gf", "Tokipona.gf"]
+gf_args = ["--run", "TestTok.gf"]
 gf_env = { "GF_LIB_PATH": os.path.join(THISDIR, "../grammar")}
 
 re_filter = None
@@ -60,7 +60,7 @@ def parse_gf_output(h):
             cur_id = s[1:].strip()
             cur_res = []
             continue
-        assert cur_id
+        assert cur_id, "No cur_id, last line: " + s
         cur_res.append(s)
     commit()
     return id_to_result

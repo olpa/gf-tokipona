@@ -1,31 +1,31 @@
 [
   {
     "en": "This is a person.",
-    "gf": "MkCl (MkNP Ni_N) (MkVPn Jan_N)",
+    "gf": "UseCl (PredNP (UseN Ni_N) (UseN Jan_N))",
     "id": "tplangL02E01",
     "tp": "ni li jan ."
   },
   {
     "en": "Water is good.",
-    "gf": "MkCl (MkNP Telo_N) (MkVPa Pona_A)",
+    "gf": "UseCl (PredAP (UseN Telo_N) (UseA Pona_A))",
     "id": "tplangL03E01",
     "tp": "telo li pona ."
   },
   {
     "en": "This person is tall.",
-    "gf": "MkCl (MkNPna Jan_N Ni_A) (MkVPa Suli_A)",
+    "gf": "UseCl (PredAP (AdjNP (UseA Ni_A) (UseN Jan_N)) (UseA Suli_A))",
     "id": "tplangL03E02",
     "tp": "jan ni li suli ."
   },
   {
     "en": "This is a friend.",
-    "gf": "MkCl (MkNP Ni_N) (MkVPvpa (MkVPn Jan_N) Pona_A)",
+    "gf": "UseCl (PredNP (UseN Ni_N) (AdjNP (UseA Pona_A) (UseN Jan_N)))",
     "id": "tplangL03T02",
     "tp": "ni li jan pona ."
   },
   {
     "en": "This is a book of animals.",
-    "gf": "MkCl (MkNP Ni_N) (MkVPvpn (MkVPn Lipu_N) Soweli_N)",
+    "gf": "UseCl (PredNP (UseN Ni_N) (AdjnpNP (UseN Soweli_N) (UseN Lipu_N)))",
     "id": "tplangL03O01",
     "tp": "ni li lipu soweli ."
   }
