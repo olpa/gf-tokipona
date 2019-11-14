@@ -88,14 +88,9 @@ def check_expected_vs_result(expected, gf):
             n_of_fails += 1
             print("{}: not found in gf results".format(prefix))
             continue
-        if len(gf_results) != 1:
+        if expected_result not in gf_results:
             n_of_fails += 1
-            print("{}: only one gf result is supported".format(prefix))
-            continue
-        gf_result = gf_results[0]
-        if expected_result != gf_result:
-            n_of_fails += 1
-            print("{}: {} expected to be {}".format(prefix, gf_result, expected_result))
+            print("{}: expected '{}' to be in gf results: {}".format(prefix, expected_result, gf_results))
             continue
         print(prefix + ": ok")
     expected_keys = set(expected.keys())
