@@ -33,12 +33,12 @@
     "en": "I'm a man",
     "gf": "UseCl (PredNP Mi_Pron (UseN Mije_N))",
     "id": "tplangL04G01",
-    "tp": "mi mije"
+    "tp": "mi mije ."
   },
   {
     "en": "You're new",
     "gf": "UseCl (PredNA Sina_Pron (UseN Sin_A))",
     "id": "tplangL04G02",
-    "tp": "sina sin"
+    "tp": "sina sin ."
   }
 ]
