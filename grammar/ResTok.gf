@@ -11,4 +11,19 @@ resource ResTok = open Prelude in {
 
   mkAdj : Str -> Adj
     = \a -> {s = a};
+
+  Verb: Type = {s: Str} ;
+
+  mkVerb : Str -> Verb
+    = \v -> {s = v};
+
+  Preposition: Type = {s: Str} ;
+
+  mkPreposition : Str -> Preposition
+    = \p -> {s = p} ;
+
+  Interjection: Type = {s:  Str} ;
+
+  mkInterjection : Str -> Interjection
+    = \i -> {s = i};
 }
