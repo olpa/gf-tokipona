@@ -12,4 +12,6 @@ concrete MiniatureGrammarTok of MiniatureGrammar = open ResTok, Prelude in {
     PredAP np ap = {s = np.s ++ "li" ++ ap.s} ;
     AdjNP ap np = {s = np.s ++ ap.s} ;
     AdjnpNP anp np = {s = np.s ++ anp.s} ;
+    Mi_Pron = {s = "mi"} ;
+    Sina_Pron = {s = "sina"} ;
 }

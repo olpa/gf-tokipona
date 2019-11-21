@@ -26,7 +26,7 @@ abstract MiniatureGrammar = {
     a_Det, every_Det, the_Det : Det ;
     this_Det, these_Det : Det ;
     that_Det, those_Det : Det ;
-    i_NP, she_NP, we_NP : NP ;
+    Mi_Pron, Sina_Pron : NP ;
     very_AdA : AdA ;
 
   -- coordination
