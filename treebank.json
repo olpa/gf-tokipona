@@ -49,13 +49,13 @@
   },
   {
     "en": "The man knows things",
-    "gf": "UseCl (PredVP (UseN Mije_N) (SmthVP Sona_V (UseN Ijo_N)))",
+    "gf": "UseCl (PredVP (UseN Mije_N) (ComplV Sona_V (UseN Ijo_N)))",
     "id": "tplangL05G04",
     "tp": "mije li sona e ijo ."
   },
   {
     "en": "I know a simple language",
-    "gf": "UseCl (PredNP (UseN Sina_Pron) (SmthVP SonaV (AdjNP (UseN Toki_N) (UseN Pona_A)))",
+    "gf": "UseCl (PredVP Mi_Pron (ComplV Sona_V (AdjNP (UseA Pona_A) (UseN Toki_N))))",
     "id": "tplangL05E01",
     "tp": "mi sona e toki pona ."
   }
