@@ -11,10 +11,12 @@ abstract MiniatureGrammar = {
     PredVP  : NP -> VP -> Cl ;
     PredNP  : NP -> NP -> Cl ;
     PredAP  : NP -> AP -> Cl ;
-    ComplV  : V -> NP -> VP ;
+    ComplV  : VP -> NP -> VP ;
     DetCN   : Det -> CN -> NP ;
     AdjCN   : AP -> CN -> CN ;
     AdjNP   : AP -> NP -> NP ;
+    AdjAP   : AP -> AP -> AP ;
+    AdjVP   : AP -> VP -> VP ;
     AdjnpNP : NP -> NP -> NP ;
     CompAP  : AP -> VP ;
     AdAP    : AdA -> AP -> AP ;

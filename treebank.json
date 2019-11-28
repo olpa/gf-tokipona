@@ -49,14 +49,32 @@
   },
   {
     "en": "The man knows things",
-    "gf": "UseCl (PredVP (UseN Mije_N) (ComplV Sona_V (UseN Ijo_N)))",
+    "gf": "UseCl (PredVP (UseN Mije_N) (ComplV (UseV Sona_V) (UseN Ijo_N)))",
     "id": "tplangL05G04",
     "tp": "mije li sona e ijo ."
   },
   {
     "en": "I know a simple language",
-    "gf": "UseCl (PredVP Mi_Pron (ComplV Sona_V (AdjNP (UseA Pona_A) (UseN Toki_N))))",
+    "gf": "UseCl (PredVP Mi_Pron (ComplV (UseV Sona_V) (AdjNP (UseA Pona_A) (UseN Toki_N))))",
     "id": "tplangL05E01",
     "tp": "mi sona e toki pona ."
+  },
+  {
+    "en": "I don't eat animals",
+    "gf": "UseCl (PredVP Mi_Pron (ComplV (AdjVP (UseA Ala_A) (UseV Moku_V)) (UseN Soweli_N)))",
+    "id": "tplangL06G01",
+    "tp": "mi moku ala e soweli ."
+  },
+  {
+    "en": "Your work is very good",
+    "gf": "UseCl (PredAP (AdjNP (UseA Sina_A) (UseN Pali_N)) (AdjAP (UseA Mute_A) (UseA Pona_A)))",
+    "id": "tplangL06E01",
+    "tp": "pali sina li pona mute ."
+  },
+  {
+    "en": "Something is very very very important",
+    "gf": "UseCl (PredAP (UseN Ijo_N) (AdjAP (UseA Mute_A) (AdjAP (UseA Mute_A) (AdjAP (UseA Mute_A) (UseA Wawa_A)))))",
+    "id": "tplangL06basedRecurse",
+    "tp": "ijo li wawa mute mute mute ."
   }
 ]

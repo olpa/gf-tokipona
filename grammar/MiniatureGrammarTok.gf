@@ -23,8 +23,10 @@ concrete MiniatureGrammarTok of MiniatureGrammar = open ResTok, Prelude in {
       ++ mkLi np.isPronomen
       ++ vp.s} ;
 
-    ComplV v np = {s = v.s ++ "e" ++ np.s} ;
+    ComplV vp np = {s = vp.s ++ "e" ++ np.s} ;
 
+    AdjAP ap apBase = {s = apBase.s ++ ap.s } ;
+    AdjVP ap vp = {s = vp.s ++ ap.s } ;
     AdjNP ap np = {s = np.s ++ ap.s; isPronomen = False} ;
     AdjnpNP anp np = {s = np.s ++ anp.s; isPronomen = False} ;
     Mi_Pron = {s = "mi"; isPronomen = True} ;
