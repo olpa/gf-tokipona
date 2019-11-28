@@ -37,7 +37,7 @@
   },
   {
     "en": "You're new",
-    "gf": "UseCl (PredNA Sina_Pron (UseN Sin_A))",
+    "gf": "UseCl (PredAP Sina_Pron (UseA Sin_A))",
     "id": "tplangL04G02",
     "tp": "sina sin ."
   }
