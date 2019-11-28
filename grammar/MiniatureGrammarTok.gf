@@ -11,6 +11,7 @@ concrete MiniatureGrammarTok of MiniatureGrammar = open ResTok, Prelude in {
     UseCl cl = {s = cl.s ++ "." } ;
     UseN n = {s = n.s; isPronomen = False};
     UseA a = {s = a.s};
+    UseV v = {s = v.s};
 
     PredNP np1 np2 = {s = np1.s
       ++ mkLi np1.isPronomen
@@ -18,6 +19,9 @@ concrete MiniatureGrammarTok of MiniatureGrammar = open ResTok, Prelude in {
     PredAP np ap = {s = np.s
       ++ mkLi np.isPronomen
       ++ ap.s} ;
+    PredVP np vp = {s = np.s
+      ++ mkLi np.isPronomen
+      ++ vp.s} ;
 
     AdjNP ap np = {s = np.s ++ ap.s; isPronomen = False} ;
     AdjnpNP anp np = {s = np.s ++ anp.s; isPronomen = False} ;

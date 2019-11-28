@@ -40,5 +40,23 @@
     "gf": "UseCl (PredAP Sina_Pron (UseA Sin_A))",
     "id": "tplangL04G02",
     "tp": "sina sin ."
+  },
+  {
+    "en": "The man knows",
+    "gf": "UseCl (PredVP (UseN Mije_N) (UseV Sona_V))",
+    "id": "tplangL05G03",
+    "tp": "mije li sona ."
+  },
+  {
+    "en": "The man knows things",
+    "gf": "UseCl (PredVP (UseN Mije_N) (SmthVP Sona_V (UseN Ijo_N)))",
+    "id": "tplangL05G04",
+    "tp": "mije li sona e ijo ."
+  },
+  {
+    "en": "I know a simple language",
+    "gf": "UseCl (PredNP (UseN Sina_Pron) (SmthVP SonaV (AdjNP (UseN Toki_N) (UseN Pona_A)))",
+    "id": "tplangL05E01",
+    "tp": "mi sona e toki pona ."
   }
 ]
