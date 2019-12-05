@@ -79,13 +79,13 @@
   },
   {
     "en": "What is new?",
-    "gf": "QuestSemeUseCl (PredAP (UseN Seme_N) (UseA Sin_A))",
+    "gf": "QuestUseCl (PredAP (UseN Seme_N) (UseA Sin_A))",
     "id": "tplangL07G01",
     "tp": "seme li sin ?"
   },
   {
     "en": "Which person is speaking?",
-    "gf": "QuestSemeUseCl (PredVP (AdjNP (UseA Seme_A) (UseN Jan_N)) (UseV Toki_V))",
+    "gf": "QuestUseCl (PredVP (AdjNP (UseA Seme_A) (UseN Jan_N)) (UseV Toki_V))",
     "id": "tplangL07G02",
     "tp": "jan seme li toki ?"
   },
@@ -97,7 +97,7 @@
   },
   {
     "en": "Is she a parent?",
-    "gf": "",
+    "gf": "QuestUseCl (PredNP Ona_Pron (QuestN Mama_N))",
     "id": "tplangL07G04",
     "tp": "ona li mama ala mama ?"
   },
@@ -121,9 +121,9 @@
   },
   {
     "en": "Does he have many vegetables?",
-    "gf": "",
+    "gf": "QuestUseCl (PredVP Ona_Pron (ComplV (QuestV Jo_V) (AdjNP (UseA Mute_A) (UseN Kili_N))))",
     "id": "tplangL07E01",
-    "tp": "ona li ja ala jo e kili mute ?"
+    "tp": "ona li jo ala jo e kili mute ?"
   },
   {
     "en": "Does the wise man carry a fish?",
@@ -133,19 +133,19 @@
   },
   {
     "en": "What are you doing to her?",
-    "gf": "QuestSemeUseCl (PredVP Sina_Pron (ComplV (UseV Seme_V) Ona_Pron))",
+    "gf": "QuestUseCl (PredVP Sina_Pron (ComplV (UseV Seme_V) Ona_Pron))",
     "id": "tplangL07E04",
     "tp": "sina seme e ona ?"
   },
   {
     "en": "Do you obey your parents?",
-    "gf": "",
+    "gf": "QuestUseCl (PredVP Sina_Pron (ComplV (QuestV Kute_V) (AdjNP (UseA Sina_A) (UseN Mama_N))))",
     "id": "tplangL07E06",
     "tp": "sina kute ala kute e mama sina ?"
   },
   {
     "en": "What does a shark eat?",
-    "gf": "",
+    "gf": "QuestUseCl (PredVP (AdjNP (UseA Wawa_A) (UseN Kala_N)) (ComplV (UseV Moku_V) (UseN Seme_N)))",
     "id": "tplangL07E07",
     "tp": "kala wawa li moku e seme ?"
   }

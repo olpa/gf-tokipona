@@ -20,6 +20,7 @@ abstract Test = MiniatureGrammar ** {
     Kili_N : N ;
     Kiwen_N : N ;
     Kule_N : N ;
+    Kute_N : N ;
     Kulupu_N : N ;
     Kute_N : N ;
     Lawa_N : N ;
@@ -61,6 +62,7 @@ abstract Test = MiniatureGrammar ** {
     Poka_N : N ;
     Poki_N : N ;
     Pona_N : N ;
+    Pu_N : N ;
     Seli_N : N ;
     Selo_N : N ;
     Seme_N : N ;
@@ -105,6 +107,7 @@ abstract Test = MiniatureGrammar ** {
     Ken_V : V ;
     Kepeken_V : V ;
     Kule_V : V ;
+    Kute_V : V ;
     Lape_V : V ;
     Lawa_V : V ;
     Lete_V : V ;
@@ -126,6 +129,7 @@ abstract Test = MiniatureGrammar ** {
     Pini_V : V ;
     Poka_V : V ;
     Pona_V : V ;
+    Pu_V : V ;
     Seli_V : V ;
     Seme_V : V ;
     Sin_V : V ;
@@ -161,6 +165,7 @@ abstract Test = MiniatureGrammar ** {
     Kin_A : A ;
     Kiwen_A : A ;
     Kule_A : A ;
+    Kute_A : A ;
     Kulupu_A : A ;
     Kute_A : A ;
     Lape_A : A ;
@@ -190,6 +195,7 @@ abstract Test = MiniatureGrammar ** {
     Pini_A : A ;
     Poka_A : A ;
     Pona_A : A ;
+    Pu_A : A ;
     Sama_A : A ;
     Seli_A : A ;
     Seme_A : A ;
