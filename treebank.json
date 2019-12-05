@@ -76,5 +76,77 @@
     "gf": "UseCl (PredAP (UseN Ijo_N) (AdjAP (UseA Mute_A) (AdjAP (UseA Mute_A) (AdjAP (UseA Mute_A) (UseA Wawa_A)))))",
     "id": "tplangL06basedRecurse",
     "tp": "ijo li wawa mute mute mute ."
+  },
+  {
+    "en": "What is new?",
+    "gf": "",
+    "id": "tplangL07G01",
+    "tp": "seme li sin ?"
+  },
+  {
+    "en": "Which person is speaking?",
+    "gf": "",
+    "id": "tplangL07G02",
+    "tp": "jan seme li toki ?"
+  },
+  {
+    "en": "Have you touched the official Toki Pona book?",
+    "gf": "",
+    "id": "tplangL07G03",
+    "tp": "sina pu ana seme ?"
+  },
+  {
+    "en": "Is she a parent?",
+    "gf": "",
+    "id": "tplangL07G04",
+    "tp": "ona li mama ala mama ?"
+  },
+  {
+    "en": "Yes.",
+    "gf": "",
+    "id": "tplangL07G05",
+    "tp": "mama ."
+  },
+  {
+    "en": "No.",
+    "gf": "",
+    "id": "tplangL07G06",
+    "tp": "mama ala ."
+  },
+  {
+    "en": "No.",
+    "gf": "",
+    "id": "tplangL07G07",
+    "tp": "ala ."
+  },
+  {
+    "en": "Does he have many vegetables?",
+    "gf": "",
+    "id": "tplangL07E01",
+    "tp": "ona li ja ala jo e kili mute ?"
+  },
+  {
+    "en": "Does the wise man carry a fish?",
+    "gf": "",
+    "id": "tplangL07E02",
+    "tp": "mije sona li jo e kala anu seme ?"
+  },
+  {
+    "en": "What are you doing to her?",
+    "gf": "",
+    "id": "tplangL07E04",
+    "tp": "sina seme e ona ?"
+  },
+  {
+    "en": "Do you obey your parents?",
+    "gf": "",
+    "id": "tplangL07E06",
+    "tp": "sina kute ala kute e mama sina ?"
+  },
+  {
+    "en": "What does a shark eat?",
+    "gf": "",
+    "id": "tplangL07E07",
+    "tp": "kala wawa li moku e seme ?"
   }
 ]
