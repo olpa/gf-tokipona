@@ -127,6 +127,7 @@ abstract Test = MiniatureGrammar ** {
     Poka_V : V ;
     Pona_V : V ;
     Seli_V : V ;
+    Seme_V : V ;
     Sin_V : V ;
     Sitelen_V : V ;
     Sona_V : V ;

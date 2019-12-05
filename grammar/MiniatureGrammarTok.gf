@@ -9,6 +9,7 @@ concrete MiniatureGrammarTok of MiniatureGrammar = open ResTok, Prelude in {
       = \b -> table { True => []; _ => "li" } ! b ;
   lin
     UseCl cl = {s = cl.s ++ "." } ;
+    QuestSemeUseCl cl = {s = cl.s ++ "?" } ;
     UseN n = {s = n.s; isPronomen = False};
     UseA a = {s = a.s};
     UseV v = {s = v.s};
@@ -31,4 +32,5 @@ concrete MiniatureGrammarTok of MiniatureGrammar = open ResTok, Prelude in {
     AdjnpNP anp np = {s = np.s ++ anp.s; isPronomen = False} ;
     Mi_Pron = {s = "mi"; isPronomen = True} ;
     Sina_Pron = {s = "sina"; isPronomen = True} ;
+    Ona_Pron = {s = "ona"; isPronomen = False} ;
 }

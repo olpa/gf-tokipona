@@ -8,6 +8,7 @@ abstract MiniatureGrammar = {
     Prep ; Interj ;
   fun
     UseCl   : Cl -> S ;
+    QuestSemeUseCl   : Cl -> S ;
     PredVP  : NP -> VP -> Cl ;
     PredNP  : NP -> NP -> Cl ;
     PredAP  : NP -> AP -> Cl ;
@@ -28,7 +29,7 @@ abstract MiniatureGrammar = {
     a_Det, every_Det, the_Det : Det ;
     this_Det, these_Det : Det ;
     that_Det, those_Det : Det ;
-    Mi_Pron, Sina_Pron : NP ;
+    Mi_Pron, Sina_Pron, Ona_Pron : NP ;
     very_AdA : AdA ;
 
   -- coordination

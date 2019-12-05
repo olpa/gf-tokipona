@@ -127,6 +127,7 @@ concrete TestTok of Test = MiniatureGrammarTok ** open ParadigmsTok in {
     Poka_V = mkV "poka" ;
     Pona_V = mkV "pona" ;
     Seli_V = mkV "seli" ;
+    Seme_V = mkV "seme" ;
     Sin_V = mkV "sin" ;
     Sitelen_V = mkV "sitelen" ;
     Sona_V = mkV "sona" ;

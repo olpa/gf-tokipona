@@ -79,13 +79,13 @@
   },
   {
     "en": "What is new?",
-    "gf": "",
+    "gf": "QuestSemeUseCl (PredAP (UseN Seme_N) (UseA Sin_A))",
     "id": "tplangL07G01",
     "tp": "seme li sin ?"
   },
   {
     "en": "Which person is speaking?",
-    "gf": "",
+    "gf": "QuestSemeUseCl (PredVP (AdjNP (UseA Seme_A) (UseN Jan_N)) (UseV Toki_V))",
     "id": "tplangL07G02",
     "tp": "jan seme li toki ?"
   },
@@ -93,7 +93,7 @@
     "en": "Have you touched the official Toki Pona book?",
     "gf": "",
     "id": "tplangL07G03",
-    "tp": "sina pu ana seme ?"
+    "tp": "sina pu anu seme ?"
   },
   {
     "en": "Is she a parent?",
@@ -133,7 +133,7 @@
   },
   {
     "en": "What are you doing to her?",
-    "gf": "",
+    "gf": "QuestSemeUseCl (PredVP Sina_Pron (ComplV (UseV Seme_V) Ona_Pron))",
     "id": "tplangL07E04",
     "tp": "sina seme e ona ?"
   },
