@@ -8,8 +8,9 @@ concrete MiniatureGrammarTok of MiniatureGrammar = open ResTok, Prelude in {
     mkLi : Bool -> Str
       = \b -> table { True => []; _ => "li" } ! b ;
   lin
-    UseCl cl = {s = cl.s ++ "." } ;
-    QuestUseCl cl = {s = cl.s ++ "?" } ;
+    UseCl cl = {s = cl.s ++ "."} ;
+    QuestUseCl cl = {s = cl.s ++ "?"} ;
+    QuestAnu cl = {s = cl.s ++ "anu" ++ "seme" ++ "?"} ;
     UseN n = {s = n.s; isPronomen = False} ;
     UseA a = {s = a.s};
     UseV v = {s = v.s};

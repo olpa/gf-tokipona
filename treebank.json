@@ -91,13 +91,13 @@
   },
   {
     "en": "Have you touched the official Toki Pona book?",
-    "gf": "",
+    "gf": "QuestAnu (PredVP Sina_Pron (UseV Pu_V))",
     "id": "tplangL07G03",
     "tp": "sina pu anu seme ?"
   },
   {
     "en": "Is she a parent?",
-    "gf": "QuestUseCl (PredNP Ona_Pron (QuestN Mama_N))",
+    "gf": "QuestUseCl (PredVP Ona_Pron (QuestV Mama_V))",
     "id": "tplangL07G04",
     "tp": "ona li mama ala mama ?"
   },
@@ -127,7 +127,7 @@
   },
   {
     "en": "Does the wise man carry a fish?",
-    "gf": "",
+    "gf": "QuestAnu (PredVP (AdjNP (UseA Sona_A) (UseN Mije_N)) (ComplV (UseV Jo_V) (UseN Kala_N)))",
     "id": "tplangL07E02",
     "tp": "mije sona li jo e kala anu seme ?"
   },

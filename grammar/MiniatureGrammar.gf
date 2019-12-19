@@ -15,6 +15,7 @@ abstract MiniatureGrammar = {
     ComplV  : VP -> NP -> VP ;
     QuestAlaVP : VP -> VP ;
     QuestAlaNP : NP -> NP ;
+    QuestAnu : Cl -> S ;
     DetCN   : Det -> CN -> NP ;
     AdjCN   : AP -> CN -> CN ;
     AdjNP   : AP -> NP -> NP ;

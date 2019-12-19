@@ -69,6 +69,7 @@ abstract Test = MiniatureGrammar ** {
     Sewi_N : N ;
     Sijelo_N : N ;
     Sike_N : N ;
+    Sina_N : N ;
     Sinpin_N : N ;
     Sitelen_N : N ;
     Sona_N : N ;
@@ -114,6 +115,7 @@ abstract Test = MiniatureGrammar ** {
     Lili_V : V ;
     Lon_V : V ;
     Lukin_V : V ;
+    Mama_V : V ;
     Moku_V : V ;
     Moli_V : V ;
     Musi_V : V ;
@@ -203,6 +205,7 @@ abstract Test = MiniatureGrammar ** {
     Sike_A : A ;
     Sin_A : A ;
     Sina_A : A ;
+    Sona_A : A ;
     Suli_A : A ;
     Suwi_A : A ;
     Taso_A : A ;
