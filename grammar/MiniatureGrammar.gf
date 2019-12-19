@@ -28,6 +28,10 @@ abstract MiniatureGrammar = {
     UseA : A -> AP ;
     QuestV : V -> VP ;
 
+    AnswerYes : V -> S ;
+    AnswerNo : V -> S ;
+    AnswerAla : S ;
+
     a_Det, every_Det, the_Det : Det ;
     this_Det, these_Det : Det ;
     that_Det, those_Det : Det ;

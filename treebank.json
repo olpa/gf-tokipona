@@ -103,19 +103,19 @@
   },
   {
     "en": "Yes.",
-    "gf": "",
+    "gf": "AnswerYes Mama_V",
     "id": "tplangL07G05",
     "tp": "mama ."
   },
   {
     "en": "No.",
-    "gf": "",
+    "gf": "AnswerNo Mama_V",
     "id": "tplangL07G06",
     "tp": "mama ala ."
   },
   {
     "en": "No.",
-    "gf": "",
+    "gf": "AnswerAla",
     "id": "tplangL07G07",
     "tp": "ala ."
   },

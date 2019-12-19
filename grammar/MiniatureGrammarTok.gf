@@ -28,6 +28,10 @@ concrete MiniatureGrammarTok of MiniatureGrammar = open ResTok, Prelude in {
 
     ComplV vp np = {s = vp.s ++ "e" ++ np.s} ;
 
+    AnswerYes v = {s = v.s ++ "."} ;
+    AnswerNo v = {s = v.s ++ "ala" ++ "."} ;
+    AnswerAla = {s = "ala" ++ "."} ;
+
     AdjAP ap apBase = {s = apBase.s ++ ap.s} ;
     AdjVP ap vp = {s = vp.s ++ ap.s} ;
     AdjNP ap np = {s = np.s ++ ap.s; isPronomen = False} ;
