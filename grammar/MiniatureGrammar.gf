@@ -13,8 +13,6 @@ abstract MiniatureGrammar = {
     PredNP  : NP -> NP -> Cl ;
     PredAP  : NP -> AP -> Cl ;
     ComplV  : VP -> NP -> VP ;
-    QuestAlaVP : VP -> VP ;
-    QuestAlaNP : NP -> NP ;
     QuestAnu : Cl -> S ;
     DetCN   : Det -> CN -> NP ;
     AdjCN   : AP -> CN -> CN ;
@@ -29,8 +27,6 @@ abstract MiniatureGrammar = {
     UseN : N -> NP ;
     UseA : A -> AP ;
     QuestV : V -> VP ;
-    QuestN : N -> NP ;
-    QuestA : A -> AP ;
 
     a_Det, every_Det, the_Det : Det ;
     this_Det, these_Det : Det ;

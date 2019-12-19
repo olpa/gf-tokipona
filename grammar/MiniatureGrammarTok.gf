@@ -14,8 +14,6 @@ concrete MiniatureGrammarTok of MiniatureGrammar = open ResTok, Prelude in {
     UseN n = {s = n.s; isPronomen = False} ;
     UseA a = {s = a.s};
     UseV v = {s = v.s};
-    QuestN n = {s = n.s ++ "ala" ++ n.s; isPronomen = False} ;
-    QuestA a = {s = a.s ++ "ala" ++ a.s} ;
     QuestV v = {s = v.s ++ "ala" ++ v.s} ;
 
     PredNP np1 np2 = {s = np1.s
