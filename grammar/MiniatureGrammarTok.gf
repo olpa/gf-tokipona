@@ -32,10 +32,10 @@ concrete MiniatureGrammarTok of MiniatureGrammar = open ResTok, Prelude in {
     AnswerNo v = {s = v.s ++ "ala" ++ "."} ;
     AnswerAla = {s = "ala" ++ "."} ;
 
-    AdjAP ap apBase = {s = apBase.s ++ ap.s} ;
-    AdjVP ap vp = {s = vp.s ++ ap.s} ;
-    AdjNP ap np = {s = np.s ++ ap.s; isPronomen = False} ;
-    AdjnpNP anp np = {s = np.s ++ anp.s; isPronomen = False} ;
+    AdjAP apBase ap = {s = apBase.s ++ ap.s} ;
+    AdjVP vp ap = {s = vp.s ++ ap.s} ;
+    AdjNP np ap = {s = np.s ++ ap.s; isPronomen = False} ;
+    AdjnpNP np anp = {s = np.s ++ anp.s; isPronomen = False} ;
     Mi_Pron = {s = "mi"; isPronomen = True} ;
     Sina_Pron = {s = "sina"; isPronomen = True} ;
     Ona_Pron = {s = "ona"; isPronomen = False} ;
