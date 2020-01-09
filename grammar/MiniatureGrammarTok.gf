@@ -39,4 +39,8 @@ concrete MiniatureGrammarTok of MiniatureGrammar = open ResTok, Prelude in {
     Mi_Pron = {s = "mi"; isPronomen = True} ;
     Sina_Pron = {s = "sina"; isPronomen = True} ;
     Ona_Pron = {s = "ona"; isPronomen = False} ;
+
+    PrepCl cl prep np = {s = cl.s ++ prep.s ++ np.s} ;
+    PrepNP np prep prepNp = {s = np.s
+      ++ mkLi np.isPronomen ++ prep.s ++ prepNp.s} ;
 }

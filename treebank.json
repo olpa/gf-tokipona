@@ -148,5 +148,35 @@
     "gf": "QuestUseCl (PredVP (AdjNP (UseN Kala_N) (UseA Wawa_A)) (ComplV (UseV Moku_V) (UseN Seme_N)))",
     "id": "tplangL07E07",
     "tp": "kala wawa li moku e seme ?"
+  },
+  {
+    "en": "I give fisah in the home.",
+    "gf": "UseCl (PrepCl (PredVP Mi_Pron (ComplV (UseV Pana_V) (UseN Kala_N))) Lon_Prep (UseN Tomo_N))",
+    "id": "tplangL08G02",
+    "tp": "mi pana e kala lon tomo ."
+  },
+  {
+    "en": "I am in the house.",
+    "gf": "UseCl (PrepNP Mi_Pron Lon_Prep (UseN Tomo_N))",
+    "id": "tplangL08G04",
+    "tp": "mi lon tomo ."
+  },
+  {
+    "en": "Little animals are good to me.",
+    "gf": "UseCl (PrepCl (PredAP (AdjNP (UseN Soweli_N) (UseA Lili_A)) (UseA Pona_A)) Tawa_Prep Mi_Pron)",
+    "id": "tplangL08E04",
+    "tp": "soweli lili li pona tawa mi ."
+  },
+  {
+    "en": "I know many languages because of this woman.",
+    "gf": "UseCl (PrepCl (PredVP Mi_Pron (ComplV (UseV Sona_V) (AdjNP (UseN Toki_N) (UseA Mute_A)))) Tan_Prep (AdjNP (UseN Meli_N) (UseA Ni_A)))",
+    "id": "tplangL08",
+    "tp": "mi sona e toki mute tan meli ni ."
+  },
+  {
+    "en": "Is the new man in the washroom?",
+    "gf": "QuestAnu (PrepNP (AdjNP (UseN Mije_N) (UseA Sin_A)) Lon_Prep (AdjnpNP (UseN Tomo_N) (UseN Telo_N)))",
+    "id": "tplangL08",
+    "tp": "mije sin li lon tomo telo anu seme ?"
   }
 ]
