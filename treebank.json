@@ -170,13 +170,19 @@
   {
     "en": "I know many languages because of this woman.",
     "gf": "UseCl (PrepCl (PredVP Mi_Pron (ComplV (UseV Sona_V) (AdjNP (UseN Toki_N) (UseA Mute_A)))) Tan_Prep (AdjNP (UseN Meli_N) (UseA Ni_A)))",
-    "id": "tplangL08",
+    "id": "tplangL08E06",
     "tp": "mi sona e toki mute tan meli ni ."
   },
   {
     "en": "Is the new man in the washroom?",
     "gf": "QuestAnu (PrepNP (AdjNP (UseN Mije_N) (UseA Sin_A)) Lon_Prep (AdjnpNP (UseN Tomo_N) (UseN Telo_N)))",
-    "id": "tplangL08",
+    "id": "tplangL08E07",
     "tp": "mije sin li lon tomo telo anu seme ?"
+  },
+  {
+    "en": "My name is NAME.",
+    "gf": "UseCl (PredAP (AdjNP (UseN Nimi_N) (UseA Mi_A)) (UseA NAME_A))",
+    "id": "tplangL09E01",
+    "tp": "nimi mi li NAME ."
   }
 ]

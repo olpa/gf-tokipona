@@ -187,6 +187,7 @@ concrete TestTok of Test = MiniatureGrammarTok ** open ParadigmsTok in {
     Mun_A = mkA "mun" ;
     Musi_A = mkA "musi" ;
     Mute_A = mkA "mute" ;
+    NAME_A = mkA "NAME" ;
     Nasa_A = mkA "nasa" ;
     Ni_A = mkA "ni" ;
     Olin_A = mkA "olin" ;

@@ -187,6 +187,7 @@ abstract Test = MiniatureGrammar ** {
     Mun_A : A ;
     Musi_A : A ;
     Mute_A : A ;
+    NAME_A : A ;
     Nasa_A : A ;
     Ni_A : A ;
     Olin_A : A ;
