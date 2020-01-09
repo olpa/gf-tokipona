@@ -184,5 +184,101 @@
     "gf": "UseCl (PredAP (AdjNP (UseN Nimi_N) (UseA Mi_A)) (UseA NAME_A))",
     "id": "tplangL09E01",
     "tp": "nimi mi li NAME ."
+  },
+  {
+    "en": "Hello.",
+    "gf": "",
+    "id": "tplangL10G01",
+    "tp": "toki !"
+  },
+  {
+    "en": "Welcome!",
+    "gf": "",
+    "id": "tplangL10G03",
+    "tp": "kama pona !"
+  },
+  {
+    "en": "I am going.",
+    "gf": "",
+    "id": "tplangL10G05",
+    "tp": "mi tawa ."
+  },
+  {
+    "en": "Good departure!",
+    "gf": "",
+    "id": "tplangL10G06",
+    "tp": "tawa pona ."
+  },
+  {
+    "en": "Don't speak.",
+    "gf": "",
+    "id": "tplangL10E01A",
+    "tp": "o toki ala ."
+  },
+  {
+    "en": "Take action.",
+    "gf": "",
+    "id": "tplangL10E01B",
+    "tp": "Take action."
+  },
+  {
+    "en": "Hey Mortimer, is this your gerbil?",
+    "gf": "",
+    "id": "tplangL10E02",
+    "tp": "jan Mosima, o ni li soweli sina anu seme ?"
+  },
+  {
+    "en": "Please don't eat my turnip.",
+    "gf": "",
+    "id": "tplangL10E03",
+    "tp": "o moku ala e kili mi ."
+  },
+  {
+    "en": "O God, give good to me.",
+    "gf": "",
+    "id": "tplangL10E05",
+    "tp": "sewi o pana e pona tawa mi ."
+  },
+  {
+    "en": "Obey your parents.",
+    "gf": "",
+    "id": "tplangL10E06",
+    "tp": "o kute e mama sina ."
+  },
+  {
+    "en": "You're so tall!",
+    "gf": "",
+    "id": "tplangL10E07",
+    "tp": "sina suli a !"
+  },
+  {
+    "en": "Thanks you!",
+    "gf": "",
+    "id": "tplangL10E08",
+    "tp": "pona !"
+  },
+  {
+    "en": "I should eat good things.",
+    "gf": "",
+    "id": "tplangL10E09",
+    "tp": "mi o moku e ijo pona ."
+  },
+  {
+    "en": "Ha ha ha!",
+    "gf": "",
+    "id": "tplangL10T02",
+    "tp": "a a a !"
+  },
+  {
+    "en": "Meow!",
+    "gf": "",
+    "id": "tplangL10T03",
+    "tp": "mu !"
+  },
+  {
+    "en": "Water! It's so beautiful!",
+    "gf": "",
+    "id": "tplangL10X01",
+    "tp": "telo a li pona ."
   }
 ]
