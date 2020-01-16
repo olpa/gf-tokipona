@@ -264,21 +264,21 @@
     "tp": "mi o moku e ijo pona ."
   },
   {
-    "en": "Ha ha ha!",
-    "gf": "",
-    "id": "tplangL10T02",
-    "tp": "a a a !"
+    "en": "Ha ha ha meow!",
+    "gf": "IjAlone (IjExt (IjExt (IjExt A_Ij A_Ij) A_Ij) Mu_Ij)",
+    "id": "tplangL10T02X",
+    "tp": "a a a mu !"
   },
   {
     "en": "Meow!",
-    "gf": "",
+    "gf": "IjAlone Mu_Ij",
     "id": "tplangL10T03",
     "tp": "mu !"
   },
   {
-    "en": "Water! It's so beautiful!",
+    "en": "Warm water! It's so beautiful!",
     "gf": "",
     "id": "tplangL10X01",
-    "tp": "telo a li pona ."
+    "tp": "telo seli a li pona ."
   }
 ]

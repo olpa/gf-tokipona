@@ -4,6 +4,7 @@ concrete MiniatureGrammarTok of MiniatureGrammar = open ResTok, Prelude in {
     NP = {s: Str; isPronomen: Bool} ;
     VP = {s: Str} ;
     AP = {s: Str} ;
+    IJ = {s: Str} ;
   oper
     mkLi : Bool -> Str
       = \b -> table { True => []; _ => "li" } ! b ;
@@ -43,4 +44,7 @@ concrete MiniatureGrammarTok of MiniatureGrammar = open ResTok, Prelude in {
     PrepCl cl prep np = {s = cl.s ++ prep.s ++ np.s} ;
     PrepNP np prep prepNp = {s = np.s
       ++ mkLi np.isPronomen ++ prep.s ++ prepNp.s} ;
+
+    IjAlone ij = {s = ij.s ++ "!"} ;
+    IjExt base attr = {s = base.s ++ attr.s} ;
 }

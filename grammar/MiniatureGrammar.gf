@@ -40,6 +40,9 @@ abstract MiniatureGrammar = {
     Mi_Pron, Sina_Pron, Ona_Pron : NP ;
     very_AdA : AdA ;
 
+    IjAlone : Interj -> S ;
+    IjExt : Interj -> Interj -> Interj ;
+
   -- coordination
   cat Conj ;
   fun
