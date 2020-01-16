@@ -9,6 +9,7 @@ abstract MiniatureGrammar = {
   fun
     UseCl   : Cl -> S ;
     QuestUseCl   : Cl -> S ;
+    ExclUseCl    : Cl -> S ;
     PredVP  : NP -> VP -> Cl ;
     PredNP  : NP -> NP -> Cl ;
     PredAP  : NP -> AP -> Cl ;
@@ -40,8 +41,10 @@ abstract MiniatureGrammar = {
     Mi_Pron, Sina_Pron, Ona_Pron : NP ;
     very_AdA : AdA ;
 
-    IjAlone : Interj -> S ;
-    IjExt : Interj -> Interj -> Interj ;
+    IjAlone : Interj -> Cl ;
+    IjExt   : Interj -> Interj -> Interj ;
+    IjCl    : Cl -> Interj -> Cl ;
+    IjNP    : NP -> Interj -> NP ;
 
   -- coordination
   cat Conj ;
