@@ -12,7 +12,7 @@ concrete MiniatureGrammarTok of MiniatureGrammar = open ResTok, Prelude in {
     UseCl cl = {s = cl.s ++ "."} ;
     ExclUseCl cl = {s = cl.s ++ "!"} ;
     QuestUseCl cl = {s = cl.s ++ "?"} ;
-    QuestAnu cl = {s = cl.s ++ "anu" ++ "seme" ++ "?"} ;
+    AnuCl cl = {s = cl.s ++ "anu" ++ "seme"} ;
     UseN n = {s = n.s; isPronomen = False} ;
     UseA a = {s = a.s};
     UseV v = {s = v.s};
@@ -50,4 +50,7 @@ concrete MiniatureGrammarTok of MiniatureGrammar = open ResTok, Prelude in {
     IjExt base attr = {s = base.s ++ attr.s} ;
     IjCl cl ij = {s = cl.s ++ ij.s} ;
     IjNP np ij = {s = np.s ++ ij.s ; isPronomen = np.isPronomen} ;
+
+    AddressCl np cl = {s = np.s ++ "o" ++ "," ++ cl.s} ;
+    CommandVP vp = {s = "o" ++ vp.s} ;
 }

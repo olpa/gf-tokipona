@@ -150,7 +150,7 @@
     "tp": "kala wawa li moku e seme ?"
   },
   {
-    "en": "I give fisah in the home.",
+    "en": "I give fish in the home.",
     "gf": "UseCl (PrepCl (PredVP Mi_Pron (ComplV (UseV Pana_V) (UseN Kala_N))) Lon_Prep (UseN Tomo_N))",
     "id": "tplangL08G02",
     "tp": "mi pana e kala lon tomo ."
@@ -211,25 +211,25 @@
   },
   {
     "en": "Don't speak.",
-    "gf": "",
+    "gf": "UseCl (CommandVP (AdjVP (UseV Toki_V) (UseA Ala_A)))",
     "id": "tplangL10E01A",
     "tp": "o toki ala ."
   },
   {
     "en": "Take action.",
-    "gf": "",
+    "gf": "UseCl (CommandVP (UseV Pali_V))",
     "id": "tplangL10E01B",
-    "tp": "Take action."
+    "tp": "o pali ."
   },
   {
     "en": "Hey Mortimer, is this your gerbil?",
-    "gf": "",
+    "gf": "QuestUseCl (AddressCl (AdjNP (UseN Jan_N) (UseA NAME_A)) (AnuCl (PredNP (UseN Ni_N) (AdjNP (UseN Soweli_N) (UseA Sina_A)))))",
     "id": "tplangL10E02",
-    "tp": "jan Mosima, o ni li soweli sina anu seme ?"
+    "tp": "jan NAME o , ni li soweli sina anu seme ?"
   },
   {
     "en": "Please don't eat my turnip.",
-    "gf": "",
+    "gf": "UseCl (CommandVP (ComplV (AdjVP (UseV Moku_V) (UseA Ala_A)) (AdjNP (UseN Kili_N) (UseA Mi_A))))",
     "id": "tplangL10E03",
     "tp": "o moku ala e kili mi ."
   },
@@ -241,7 +241,7 @@
   },
   {
     "en": "Obey your parents.",
-    "gf": "",
+    "gf": "UseCl (CommandVP (ComplV (UseV Kute_V) (AdjNP (UseN Mama_N) (UseA Sina_A))))",
     "id": "tplangL10E06",
     "tp": "o kute e mama sina ."
   },

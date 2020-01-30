@@ -16,7 +16,7 @@ abstract MiniatureGrammar = {
     ComplV  : VP -> NP -> VP ;
     PrepCl  : Cl -> Prep -> NP -> Cl ;
     PrepNP  : NP -> Prep -> NP -> Cl ;
-    QuestAnu : Cl -> S ;
+    AnuCl   : Cl -> Cl ;
     DetCN   : Det -> CN -> NP ;
     AdjCN   : CN -> AP -> CN ;
     AdjNP   : NP -> AP -> NP ;
@@ -45,6 +45,9 @@ abstract MiniatureGrammar = {
     IjExt   : Interj -> Interj -> Interj ;
     IjCl    : Cl -> Interj -> Cl ;
     IjNP    : NP -> Interj -> NP ;
+
+    AddressCl : NP -> Cl -> Cl ;
+    CommandVP : VP -> Cl ;
 
   -- coordination
   cat Conj ;
