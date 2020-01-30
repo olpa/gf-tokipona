@@ -91,7 +91,7 @@
   },
   {
     "en": "Have you touched the official Toki Pona book?",
-    "gf": "QuestAnu (PredVP Sina_Pron (UseV Pu_V))",
+    "gf": "QuestUseCl (AnuCl (PredVP Sina_Pron (UseV Pu_V)))",
     "id": "tplangL07G03",
     "tp": "sina pu anu seme ?"
   },
@@ -127,7 +127,7 @@
   },
   {
     "en": "Does the wise man carry a fish?",
-    "gf": "QuestAnu (PredVP (AdjNP (UseN Mije_N) (UseA Sona_A)) (ComplV (UseV Jo_V) (UseN Kala_N)))",
+    "gf": "QuestUseCl (AnuCl (PredVP (AdjNP (UseN Mije_N) (UseA Sona_A)) (ComplV (UseV Jo_V) (UseN Kala_N))))",
     "id": "tplangL07E02",
     "tp": "mije sona li jo e kala anu seme ?"
   },
@@ -175,7 +175,7 @@
   },
   {
     "en": "Is the new man in the washroom?",
-    "gf": "QuestAnu (PrepNP (AdjNP (UseN Mije_N) (UseA Sin_A)) Lon_Prep (AdjnpNP (UseN Tomo_N) (UseN Telo_N)))",
+    "gf": "QuestUseCl (AnuCl (PrepNP (AdjNP (UseN Mije_N) (UseA Sin_A)) Lon_Prep (AdjnpNP (UseN Tomo_N) (UseN Telo_N))))",
     "id": "tplangL08E07",
     "tp": "mije sin li lon tomo telo anu seme ?"
   },
@@ -187,25 +187,25 @@
   },
   {
     "en": "Hello.",
-    "gf": "",
+    "gf": "ExclUseCl (Greeting (UseN Toki_N))",
     "id": "tplangL10G01",
     "tp": "toki !"
   },
   {
     "en": "Welcome!",
-    "gf": "",
+    "gf": "ExclUseCl (Greeting (AdjNP (UseN Kama_N) (UseA Pona_A)))",
     "id": "tplangL10G03",
     "tp": "kama pona !"
   },
   {
     "en": "I am going.",
-    "gf": "",
+    "gf": "UseCl (PredVP Mi_Pron (UseV Tawa_V))",
     "id": "tplangL10G05",
     "tp": "mi tawa ."
   },
   {
     "en": "Good departure!",
-    "gf": "",
+    "gf": "UseCl (Greeting (AdjNP (UseN Tawa_N) (UseA Pona_A)))",
     "id": "tplangL10G06",
     "tp": "tawa pona ."
   },
@@ -253,7 +253,7 @@
   },
   {
     "en": "Thanks you!",
-    "gf": "",
+    "gf": "ExclUseCl (Greeting (UseN Pona_N))",
     "id": "tplangL10E08",
     "tp": "pona !"
   },
