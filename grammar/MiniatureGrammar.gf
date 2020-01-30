@@ -48,6 +48,7 @@ abstract MiniatureGrammar = {
 
     AddressCl : NP -> Cl -> Cl ;
     CommandVP : VP -> Cl ;
+    CommandPredVP : NP -> VP -> Cl ;
 
   -- coordination
   cat Conj ;

@@ -53,4 +53,5 @@ concrete MiniatureGrammarTok of MiniatureGrammar = open ResTok, Prelude in {
 
     AddressCl np cl = {s = np.s ++ "o" ++ "," ++ cl.s} ;
     CommandVP vp = {s = "o" ++ vp.s} ;
+    CommandPredVP np vp = {s = np.s ++ "o" ++ vp.s} ;
 }

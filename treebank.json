@@ -235,7 +235,7 @@
   },
   {
     "en": "O God, give good to me.",
-    "gf": "",
+    "gf": "UseCl (PrepCl (CommandPredVP (UseN Sewi_N) (ComplV (UseV Pana_V) (UseN Pona_N))) Tawa_Prep Mi_Pron)",
     "id": "tplangL10E05",
     "tp": "sewi o pana e pona tawa mi ."
   },
@@ -259,7 +259,7 @@
   },
   {
     "en": "I should eat good things.",
-    "gf": "",
+    "gf": "UseCl (CommandPredVP Mi_Pron (ComplV (UseV Moku_V) (AdjNP (UseN Ijo_N) (UseA Pona_A))))",
     "id": "tplangL10E09",
     "tp": "mi o moku e ijo pona ."
   },
