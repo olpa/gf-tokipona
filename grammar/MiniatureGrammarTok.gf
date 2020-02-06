@@ -57,4 +57,8 @@ concrete MiniatureGrammarTok of MiniatureGrammar = open ResTok, Prelude in {
     Greeting np = {s = np.s} ;
 
     PiNP np anp = {s = np.s ++ "pi" ++ anp.s; isPronomen = False} ;
+
+    GrowNum base ext = {s = base.s ++ ext.s} ;
+    NumberNP n = {s = n.s; isPronomen = False} ;
+    NumberAP n = {s = "nanpa" ++ n.s} ;
 }

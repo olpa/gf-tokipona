@@ -25,5 +25,10 @@ resource ResTok = open Prelude in {
   Interjection: Type = {s:  Str} ;
 
   mkInterjection : Str -> Interjection
-    = \i -> {s = i};
+    = \i -> {s = i} ;
+
+  Number: Type = {s: Str} ;
+
+  mkNumber : Str -> Number
+    = \n -> {s = n} ;
 }

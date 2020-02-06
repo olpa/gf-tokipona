@@ -286,5 +286,23 @@
     "gf": "UseCl (PredNP Mi_Pron (PiNP (UseN Jan_N) (AdjNP (UseN Pona_N) (UseA Mute_A))))",
     "id": "tplangL11G05X01",
     "tp": "mi jan pi pona mute ."
+  },
+  {
+    "en": "I know four languages.",
+    "gf": "UseCl (PredVP Mi_Pron (ComplV (UseV Sona_V) (AdjnpNP (UseN Toki_N) (NumberNP (GrowNum Tu_Num Tu_Num)))))",
+    "id": "tplangL12T06",
+    "tp": "mi sona e toki tu tu ."
+  },
+  {
+    "en": "You're #1!",
+    "gf": "ExclUseCl (PredAP Sina_Pron (NumberAP Wan_Num))",
+    "id": "tplangL12T01",
+    "tp": "sina nanpa wan !"
+  },
+  {
+    "en": "You're #78.",
+    "gf": "UseCl (PredAP Sina_Pron (NumberAP (GrowNum (GrowNum (GrowNum (GrowNum (GrowNum (GrowNum (GrowNum Mute_Num Mute_Num) Mute_Num) Luka_Num) Luka_Num) Luka_Num) Tu_Num) Wan_Num)))",
+    "id": "tplangL12T01GXX",
+    "tp": "sina nanpa mute mute mute luka luka luka tu wan ."
   }
 ]

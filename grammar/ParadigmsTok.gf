@@ -18,4 +18,7 @@ oper
   mkIj : Str -> Interj
     = \i -> lin Interj (mkInterjection i) ;
 
+  mkNum : Str -> Num
+    = \n -> lin Num (mkNumber n) ;
+
 }

@@ -5,7 +5,7 @@ abstract MiniatureGrammar = {
   cat
     S ; Cl ; NP ; VP ; AP ; CN ;
     Det ; N ; A ; V ; V2 ; AdA ;
-    Prep ; Interj ;
+    Prep ; Interj ; Num ;
   fun
     UseCl   : Cl -> S ;
     QuestUseCl   : Cl -> S ;
@@ -52,6 +52,10 @@ abstract MiniatureGrammar = {
     Greeting : NP -> Cl ;
 
     PiNP : NP -> NP -> NP ;
+
+    GrowNum : Num -> Num -> Num ;
+    NumberNP : Num -> NP ;
+    NumberAP : Num -> AP ;
 
   -- coordination
   cat Conj ;

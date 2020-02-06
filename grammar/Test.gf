@@ -239,4 +239,11 @@ abstract Test = MiniatureGrammar ** {
     Pakala_Ij : Interj ;
     Pona_Ij : Interj ;
     Toki_Ij : Interj ;
+
+    Ala_Num : Num ;
+    Wan_Num : Num ;
+    Tu_Num : Num ;
+    Luka_Num : Num ;
+    Mute_Num : Num ;
+    Ale_Num : Num ;
 }
