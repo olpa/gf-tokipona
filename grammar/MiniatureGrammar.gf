@@ -51,6 +51,8 @@ abstract MiniatureGrammar = {
     CommandPredVP : NP -> VP -> Cl ;
     Greeting : NP -> Cl ;
 
+    PiNP : NP -> NP -> NP ;
+
   -- coordination
   cat Conj ;
   fun

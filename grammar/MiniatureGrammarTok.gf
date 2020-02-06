@@ -55,4 +55,6 @@ concrete MiniatureGrammarTok of MiniatureGrammar = open ResTok, Prelude in {
     CommandVP vp = {s = "o" ++ vp.s} ;
     CommandPredVP np vp = {s = np.s ++ "o" ++ vp.s} ;
     Greeting np = {s = np.s} ;
+
+    PiNP np anp = {s = np.s ++ "pi" ++ anp.s; isPronomen = False} ;
 }

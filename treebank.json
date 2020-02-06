@@ -280,5 +280,11 @@
     "gf": "UseCl (PredAP (IjNP (AdjNP (UseN Telo_N) (UseA Seli_A)) A_Ij) (UseA Pona_A))",
     "id": "tplangL10X01",
     "tp": "telo seli a li pona ."
+  },
+  {
+    "en": "I'm a person of much good.",
+    "gf": "UseCl (PredNP Mi_Pron (PiNP (UseN Jan_N) (AdjNP (UseN Pona_N) (UseA Mute_A))))",
+    "id": "tplangL11G05X01",
+    "tp": "mi jan pi pona mute ."
   }
 ]
