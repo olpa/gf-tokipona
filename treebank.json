@@ -298,11 +298,5 @@
     "gf": "ExclUseCl (PredAP Sina_Pron (NumberAP Wan_Num))",
     "id": "tplangL12T01",
     "tp": "sina nanpa wan !"
-  },
-  {
-    "en": "You're #78.",
-    "gf": "UseCl (PredAP Sina_Pron (NumberAP (GrowNum (GrowNum (GrowNum (GrowNum (GrowNum (GrowNum (GrowNum Mute_Num Mute_Num) Mute_Num) Luka_Num) Luka_Num) Luka_Num) Tu_Num) Wan_Num)))",
-    "id": "tplangL12T01GXX",
-    "tp": "sina nanpa mute mute mute luka luka luka tu wan ."
   }
 ]
