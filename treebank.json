@@ -304,5 +304,17 @@
     "gf": "UseCl (PredVP Mi_Pron (ComplV (WithPreV Sona_V Kama_PV) (AdjNP (UseN Toki_N) (UseA Pona_A))))",
     "id": "tplangL13E02",
     "tp": "mi kama sona e toki pona ."
+  },
+  {
+    "en": "Tonight, he is coming.",
+    "gf": "UseCl (WithContextLa (PredVP Ona_Pron (UseV Kama_V)) (FragmentNP (AdjNP (AdjNP (UseN Tenpo_N) (UseA Pimeja_A)) (UseA Ni_A))))",
+    "id": "tplangL14G02",
+    "tp": "tenpo pimeja ni la ona li kama ."
+  },
+  {
+    "en": "When I am good to people, people are good to me.",
+    "gf": "UseCl (WithContextCLa (PrepCl (PredVP (UseN Jan_N) (UseV Pona_V)) Tawa_Prep Mi_Pron) (FragmentCl (PrepCl (PredVP Mi_Pron (UseV Pona_V)) Tawa_Prep (UseN Jan_N))))",
+    "id": "tplangL14E01",
+    "tp": "mi pona tawa jan , la jan li pona tawa mi ."
   }
 ]

@@ -63,4 +63,11 @@ concrete MiniatureGrammarTok of MiniatureGrammar = open ResTok, Prelude in {
     NumberAP n = {s = "nanpa" ++ n.s} ;
 
     WithPreV v prev = {s = prev.s ++ v.s} ;
+
+    FragmentNP f = {s = f.s} ;
+    FragmentVP f = {s = f.s} ;
+    FragmentAP f = {s = f.s} ;
+    FragmentCl f = {s = f.s} ;
+    WithContextLa cl ctx = {s = ctx.s ++ "la" ++ cl.s} ;
+    WithContextCLa cl ctx = {s = ctx.s ++ "," ++ "la" ++ cl.s} ;
 }
