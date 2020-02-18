@@ -31,4 +31,9 @@ resource ResTok = open Prelude in {
 
   mkNumber : Str -> Number
     = \n -> {s = n} ;
+
+  preVerb: Type = {s: Str} ;
+
+  mkPreVerb : Str -> preVerb
+    = \pv -> {s = pv };
 }

@@ -298,5 +298,11 @@
     "gf": "ExclUseCl (PredAP Sina_Pron (NumberAP Wan_Num))",
     "id": "tplangL12T01",
     "tp": "sina nanpa wan !"
+  },
+  {
+    "en": "I am learning Toki Pona.",
+    "gf": "UseCl (PredVP Mi_Pron (ComplV (WithPreV Sona_V Kama_PV) (AdjNP (UseN Toki_N) (UseA Pona_A))))",
+    "id": "tplangL13E02",
+    "tp": "mi kama sona e toki pona ."
   }
 ]

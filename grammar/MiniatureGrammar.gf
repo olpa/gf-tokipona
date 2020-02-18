@@ -5,7 +5,7 @@ abstract MiniatureGrammar = {
   cat
     S ; Cl ; NP ; VP ; AP ; CN ;
     Det ; N ; A ; V ; V2 ; AdA ;
-    Prep ; Interj ; Num ;
+    Prep ; Interj ; Num ; PreV ;
   fun
     UseCl   : Cl -> S ;
     QuestUseCl   : Cl -> S ;
@@ -30,6 +30,7 @@ abstract MiniatureGrammar = {
     UseN : N -> NP ;
     UseA : A -> AP ;
     QuestV : V -> VP ;
+    WithPreV : V -> PreV -> VP ;
 
     AnswerYes : V -> S ;
     AnswerNo : V -> S ;

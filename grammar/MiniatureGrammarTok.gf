@@ -61,4 +61,6 @@ concrete MiniatureGrammarTok of MiniatureGrammar = open ResTok, Prelude in {
     GrowNum base ext = {s = base.s ++ ext.s} ;
     NumberNP n = {s = n.s; isPronomen = False} ;
     NumberAP n = {s = "nanpa" ++ n.s} ;
+
+    WithPreV v prev = {s = prev.s ++ v.s} ;
 }

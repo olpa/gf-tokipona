@@ -246,4 +246,11 @@ abstract Test = MiniatureGrammar ** {
     Luka_Num : Num ;
     Mute_Num : Num ;
     Ale_Num : Num ;
+
+    Kama_PV : PreV ;
+    Ken_PV : PreV ;
+    Wile_PV : PreV ;
+    Lukin_PV : PreV ;
+    Sona_PV : PreV ;
+
 }

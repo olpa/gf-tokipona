@@ -21,4 +21,7 @@ oper
   mkNum : Str -> Num
     = \n -> lin Num (mkNumber n) ;
 
+  mkPreV : Str -> preVerb
+    = \pv -> lin preVerb (mkPreVerb pv) ;
+
 }
