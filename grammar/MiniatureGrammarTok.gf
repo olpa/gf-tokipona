@@ -70,4 +70,8 @@ concrete MiniatureGrammarTok of MiniatureGrammar = open ResTok, Prelude in {
     FragmentCl f = {s = f.s} ;
     WithContextLa cl ctx = {s = ctx.s ++ "la" ++ cl.s} ;
     WithContextCLa cl ctx = {s = ctx.s ++ "," ++ "la" ++ cl.s} ;
+
+    PredAndVP cl vp = {s = cl.s ++ "li" ++ vp.s} ;
+    PredAndNP cl np = {s = cl.s ++ "li" ++ np.s} ;
+    PredAndAP cl ap = {s = cl.s ++ "li" ++ ap.s} ;
 }

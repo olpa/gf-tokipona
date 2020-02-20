@@ -328,5 +328,11 @@
     "gf": "UseCl (PrepCl (PredAP (UseN Suwi_N) (UseA Pona_A)) Tawa_Prep Mi_Pron)",
     "id": "tplangL16E01",
     "tp": "suwi li pona tawa mi ."
+  },
+  {
+    "en": "The fatherland is small and cold.",
+    "gf": "UseCl (PredAndAP (PredAP (AdjNP (UseN Ma_N) (UseA Mama_A)) (UseA Lili_A)) (UseA Lete_A))",
+    "id": "tplangL1603",
+    "tp": "ma mama li lili li lete ."
   }
 ]
