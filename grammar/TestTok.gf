@@ -238,6 +238,7 @@ concrete TestTok of Test = MiniatureGrammarTok ** open ParadigmsTok in {
     O_Ij = mkIj "o" ;
     Pakala_Ij = mkIj "pakala" ;
     Pona_Ij = mkIj "pona" ;
+    Taso_Ij = mkIj "taso" ;
     Toki_Ij = mkIj "toki" ;
 
     Ala_Num = mkNum "ala" ;

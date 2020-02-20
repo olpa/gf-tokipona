@@ -48,7 +48,8 @@ concrete MiniatureGrammarTok of MiniatureGrammar = open ResTok, Prelude in {
 
     IjAlone ij = {s = ij.s} ;
     IjExt base attr = {s = base.s ++ attr.s} ;
-    IjCl cl ij = {s = cl.s ++ ij.s} ;
+    PrefixIjCl cl ij = {s = ij.s ++ cl.s} ;
+    PostfixIjCl cl ij = {s = cl.s ++ ij.s} ;
     IjNP np ij = {s = np.s ++ ij.s ; isPronomen = np.isPronomen} ;
 
     AddressCl np cl = {s = np.s ++ "o" ++ "," ++ cl.s} ;
@@ -74,4 +75,7 @@ concrete MiniatureGrammarTok of MiniatureGrammar = open ResTok, Prelude in {
     PredAndVP cl vp = {s = cl.s ++ "li" ++ vp.s} ;
     PredAndNP cl np = {s = cl.s ++ "li" ++ np.s} ;
     PredAndAP cl ap = {s = cl.s ++ "li" ++ ap.s} ;
+
+    AndNP np1 np2 = {s = np1.s ++ "en" ++ np2.s; isPronomen = False} ;
+    AndAP ap1 ap2 = {s = ap1.s ++ "en" ++ ap2.s} ;
 }

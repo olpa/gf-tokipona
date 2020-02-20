@@ -19,6 +19,8 @@ abstract MiniatureGrammar = {
     ComplV  : VP -> NP -> VP ;
     PrepCl  : Cl -> Prep -> NP -> Cl ;
     PrepNP  : NP -> Prep -> NP -> Cl ;
+    AndNP   : NP -> NP -> NP;
+    AndAP   : AP -> AP -> AP;
     AnuCl   : Cl -> Cl ;
     DetCN   : Det -> CN -> NP ;
     AdjCN   : CN -> AP -> CN ;
@@ -47,7 +49,8 @@ abstract MiniatureGrammar = {
 
     IjAlone : Interj -> Cl ;
     IjExt   : Interj -> Interj -> Interj ;
-    IjCl    : Cl -> Interj -> Cl ;
+    PrefixIjCl   : Cl -> Interj -> Cl ;
+    PostfixIjCl  : Cl -> Interj -> Cl ;
     IjNP    : NP -> Interj -> NP ;
 
     AddressCl : NP -> Cl -> Cl ;

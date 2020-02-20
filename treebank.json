@@ -247,7 +247,7 @@
   },
   {
     "en": "You're so tall!",
-    "gf": "ExclUseCl (IjCl (PredAP Sina_Pron (UseA Suli_A)) A_Ij)",
+    "gf": "ExclUseCl (SuffixIjCl (PredAP Sina_Pron (UseA Suli_A)) A_Ij)",
     "id": "tplangL10E07",
     "tp": "sina suli a !"
   },
@@ -332,7 +332,19 @@
   {
     "en": "The fatherland is small and cold.",
     "gf": "UseCl (PredAndAP (PredAP (AdjNP (UseN Ma_N) (UseA Mama_A)) (UseA Lili_A)) (UseA Lete_A))",
-    "id": "tplangL1603",
+    "id": "tplangL16E03",
     "tp": "ma mama li lili li lete ."
+  },
+  {
+    "en": "But men and women are working and are happy.",
+    "gf": "UseCl (PrefixIjCl (PredAndVP (PredVP (AndNP (UseN Mije_N) (UseN Meli_N)) (UseV Pali_V)) (AdjVP (UseV Pilin_V) (UseA Pona_A))) Taso_Ij)",
+    "id": "tplangL1604",
+    "tp": "taso mije en meli li pali li pilin pona ."
+  },
+  {
+    "en": "My sister opened the first door and the second door.",
+    "gf": "",
+    "id": "tplangL16",
+    "tp": "meli sama mi li open e lupa nanpa wan e lupa nanpa tu ."
   }
 ]
