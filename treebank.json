@@ -316,5 +316,17 @@
     "gf": "UseCl (WithContextCLa (PrepCl (PredVP (UseN Jan_N) (UseV Pona_V)) Tawa_Prep Mi_Pron) (FragmentCl (PrepCl (PredVP Mi_Pron (UseV Pona_V)) Tawa_Prep (UseN Jan_N))))",
     "id": "tplangL14E01",
     "tp": "mi pona tawa jan , la jan li pona tawa mi ."
+  },
+  {
+    "en": "I am at your side.",
+    "gf": "UseCl (PrepNP Mi_Pron Lon_Prep (AdjNP (UseN Poka_N) (UseA Sina_A)))",
+    "id": "tplangL15E01",
+    "tp": "mi lon poka sina ."
+  },
+  {
+    "en": "I like sweets",
+    "gf": "UseCl (PrepCl (PredAP (UseN Suwi_N) (UseA Pona_A)) Tawa_Prep Mi_Pron)",
+    "id": "tplangL16E01",
+    "tp": "suwi li pona tawa mi ."
   }
 ]
