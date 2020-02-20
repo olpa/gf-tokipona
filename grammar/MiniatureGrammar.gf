@@ -71,6 +71,7 @@ abstract MiniatureGrammar = {
     FragmentCl : Cl -> Fragment ;
     WithContextLa : Cl -> Fragment -> Cl ;
     WithContextCLa : Cl -> Fragment -> Cl ;
+    WithContextSc : Cl -> Fragment -> Cl ;
 
   -- coordination
   cat Conj ;

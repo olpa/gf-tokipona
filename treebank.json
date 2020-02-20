@@ -338,13 +338,19 @@
   {
     "en": "But men and women are working and are happy.",
     "gf": "UseCl (PrefixIjCl (PredAndVP (PredVP (AndNP (UseN Mije_N) (UseN Meli_N)) (UseV Pali_V)) (AdjVP (UseV Pilin_V) (UseA Pona_A))) Taso_Ij)",
-    "id": "tplangL1604",
+    "id": "tplangL16E04",
     "tp": "taso mije en meli li pali li pilin pona ."
   },
   {
     "en": "My sister opened the first door and the second door.",
     "gf": "UseCl (PredVP (AdjNP (AdjNP (UseN Meli_N) (UseA Sama_A)) (UseA Mi_A)) (ComplV (UseV Open_V) (AndComplNP (AdjNP (UseN Lupa_N) (NumberAP Wan_Num)) (AdjNP (UseN Lupa_N) (NumberAP Tu_Num)))))",
-    "id": "tplangL16",
+    "id": "tplangL16E05",
     "tp": "meli sama mi li open e lupa nanpa wan e lupa nanpa tu ."
+  },
+  {
+    "en": "I want Mélanie to visit me.",
+    "gf": "UseCl (WithContextSc (PrepCl (PredVP (AdjNP (UseN Jan_N) (UseA NAME_A)) (UseV Kama_V)) Tawa_Prep (AdjNP (UseN Tomo_N) (UseA Mi_A))) (FragmentCl (PredVP Mi_Pron (ComplV (UseV Wile_V) (UseN Ni_N)))))",
+    "id": "tplangL17G01",
+    "tp": "mi wile e ni : jan NAME li kama tawa tomo mi ."
   }
 ]
