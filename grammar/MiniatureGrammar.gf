@@ -20,6 +20,7 @@ abstract MiniatureGrammar = {
     PrepCl  : Cl -> Prep -> NP -> Cl ;
     PrepNP  : NP -> Prep -> NP -> Cl ;
     AndNP   : NP -> NP -> NP;
+    AndComplNP  : NP -> NP -> NP ;
     AndAP   : AP -> AP -> AP;
     AnuCl   : Cl -> Cl ;
     DetCN   : Det -> CN -> NP ;

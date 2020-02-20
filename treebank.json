@@ -247,7 +247,7 @@
   },
   {
     "en": "You're so tall!",
-    "gf": "ExclUseCl (SuffixIjCl (PredAP Sina_Pron (UseA Suli_A)) A_Ij)",
+    "gf": "ExclUseCl (PostfixIjCl (PredAP Sina_Pron (UseA Suli_A)) A_Ij)",
     "id": "tplangL10E07",
     "tp": "sina suli a !"
   },
@@ -343,7 +343,7 @@
   },
   {
     "en": "My sister opened the first door and the second door.",
-    "gf": "",
+    "gf": "UseCl (PredVP (AdjNP (AdjNP (UseN Meli_N) (UseA Sama_A)) (UseA Mi_A)) (ComplV (UseV Open_V) (AndComplNP (AdjNP (UseN Lupa_N) (NumberAP Wan_Num)) (AdjNP (UseN Lupa_N) (NumberAP Tu_Num)))))",
     "id": "tplangL16",
     "tp": "meli sama mi li open e lupa nanpa wan e lupa nanpa tu ."
   }

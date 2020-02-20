@@ -78,4 +78,5 @@ concrete MiniatureGrammarTok of MiniatureGrammar = open ResTok, Prelude in {
 
     AndNP np1 np2 = {s = np1.s ++ "en" ++ np2.s; isPronomen = False} ;
     AndAP ap1 ap2 = {s = ap1.s ++ "en" ++ ap2.s} ;
+    AndComplNP np1 np2 = {s = np1.s ++ "e" ++ np2.s; isPronomen = False} ;
 }
