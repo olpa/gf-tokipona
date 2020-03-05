@@ -1,4 +1,4 @@
-concrete MiniatureGrammarTok of MiniatureGrammar = open ResTok, Prelude in {
+concrete Grammar of GrammarBase = open Resources in {
   lincat
     S = {s: Str} ;
     NP = {s: Str; isPronomen: Bool} ;

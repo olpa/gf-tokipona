@@ -1,4 +1,6 @@
-resource ResTok = open Prelude in {
+resource Resources = {
+
+  param Bool = False | True ;
 
   oper
 

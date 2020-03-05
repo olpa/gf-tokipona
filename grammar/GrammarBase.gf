@@ -1,4 +1,4 @@
-abstract MiniatureGrammar = {
+abstract GrammarBase = {
 
   flags startcat = S;
 

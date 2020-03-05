@@ -1,5 +1,5 @@
-resource ParadigmsTok = MiniatureGrammarTok [N, V, A, IJ] **
-  open ResTok, MiniatureGrammarTok, Prelude in {
+resource Paradigms = Grammar [N, V, A, IJ] **
+  open Resources, Grammar in {
 
 oper
 

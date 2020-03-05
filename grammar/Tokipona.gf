@@ -1,4 +1,4 @@
-concrete TestTok of Test = MiniatureGrammarTok ** open ParadigmsTok in {
+concrete Tokipona of TokiponaBase = Grammar ** open Paradigms in {
   lin
     Akesi_N = mkN "akesi" ;
     Ala_N = mkN "ala" ;

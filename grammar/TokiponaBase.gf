@@ -1,4 +1,4 @@
-abstract Test = MiniatureGrammar ** {
+abstract TokiponaBase = GrammarBase ** {
   fun
     Akesi_N : N ;
     Ala_N : N ;
