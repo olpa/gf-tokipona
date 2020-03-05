@@ -12,7 +12,7 @@ Status: up to the chapter 12 of the official Toki Pona book (ISBN 978-0-9782923-
 
 
 ```
-$ gf TestTok.gf
+$ gf Tokipona.gf
 
          *  *  *
       *           *
