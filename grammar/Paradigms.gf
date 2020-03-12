@@ -1,5 +1,5 @@
-resource Paradigms = Grammar [N, V, A, IJ] **
-  open Resources, Grammar in {
+resource Paradigms = Grammar **
+  open Resources in {
 
 oper
 

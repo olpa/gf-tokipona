@@ -1,13 +1,14 @@
 concrete Grammar of GrammarBase = open Resources in {
   lincat
-    S = {s: Str} ;
+    S, Cl, Fragment = {s: Str} ;
     NP = {s: Str; isPronomen: Bool} ;
-    VP = {s: Str} ;
-    AP = {s: Str} ;
-    IJ = {s: Str} ;
+    VP, AP, CN, AdA = {s: Str} ;
+    N, A, V, V2, PreV, Prep, Interj, Num = {s: Str} ;
+
   oper
     mkLi : Bool -> Str
       = \b -> table { True => []; _ => "li" } ! b ;
+
   lin
     UseCl cl = {s = cl.s ++ "."} ;
     ExclUseCl cl = {s = cl.s ++ "!"} ;

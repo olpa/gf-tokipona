@@ -3,9 +3,9 @@ abstract GrammarBase = {
   flags startcat = S;
 
   cat
-    S ; Cl ; NP ; VP ; AP ; CN ;
-    Det ; N ; A ; V ; V2 ; AdA ;
-    Prep ; Interj ; Num ; PreV ; Fragment ;
+    S ; Cl ; Fragment ;
+    NP ; VP ; AP ; CN ; AdA ;
+    N ; A ; V ; V2 ; PreV ; Prep ; Interj ; Num ;
   fun
     UseCl   : Cl -> S ;
     QuestUseCl   : Cl -> S ;
@@ -23,14 +23,10 @@ abstract GrammarBase = {
     AndComplNP  : NP -> NP -> NP ;
     AndAP   : AP -> AP -> AP;
     AnuCl   : Cl -> Cl ;
-    DetCN   : Det -> CN -> NP ;
-    AdjCN   : CN -> AP -> CN ;
     AdjNP   : NP -> AP -> NP ;
     AdjAP   : AP -> AP -> AP ;
     AdjVP   : VP -> AP -> VP ;
     AdjnpNP : NP -> NP -> NP ;
-    CompAP  : AP -> VP ;
-    AdAP    : AdA -> AP -> AP ;
 
     UseV : V -> VP ;
     UseN : N -> NP ;
@@ -41,12 +37,6 @@ abstract GrammarBase = {
     AnswerYes : V -> S ;
     AnswerNo : V -> S ;
     AnswerAla : S ;
-
-    a_Det, every_Det, the_Det : Det ;
-    this_Det, these_Det : Det ;
-    that_Det, those_Det : Det ;
-    Mi_Pron, Sina_Pron, Ona_Pron : NP ;
-    very_AdA : AdA ;
 
     IjAlone : Interj -> Cl ;
     IjExt   : Interj -> Interj -> Interj ;
@@ -73,10 +63,7 @@ abstract GrammarBase = {
     WithContextCLa : Cl -> Fragment -> Cl ;
     WithContextSc : Cl -> Fragment -> Cl ;
 
-  -- coordination
-  cat Conj ;
-  fun
-    ConjS  : Conj -> S -> S -> S ;
-    ConjNP : Conj -> NP -> NP -> NP ;
-    and_Conj, or_Conj : Conj ;
+    Mi_Pron : NP ;
+    Sina_Pron : NP ;
+    Ona_Pron : NP ;
 }
