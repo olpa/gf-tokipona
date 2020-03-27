@@ -2,11 +2,7 @@
 
 Describe [Toki Pona](https://tokipona.org/) using [Grammatical Framework](https://www.grammaticalframework.org/).
 
-Status: up to the chapter 12 of the official Toki Pona book (ISBN 978-0-9782923-0-0). Features yet to be implemented are:
-
-- pre-verbs
-- context ("la", ":")
-- and
+All the features described in the official Toki Pona book (ISBN 978-0-9782923-0-0) are implemented.
 
 ## Fast start
 
@@ -59,9 +55,11 @@ The second noun phrase is given by the constructor `AdjNP np adj`, which impleme
 
 The constructor `UseCl cl` makes a sentence by adding a dot at the end of the clause.
 
+All the constructors are commented in the file [grammar/GrammarBase.gf](grammar/GrammarBase.gf).
+
 ### Read the treebank
 
-For more constructions, see the examples in [treebank.json](./treebank.json). If a tokipona feature is explained in chapter `NN`, then the corresponding entries are under ID `tplangLNN*`.
+Toki Pona examples and corresponding parse trees can be found in [treebank.json](./treebank.json). If a feature is explained in chapter `NN`, then the corresponding entries are under ID `tplangLNN*`.
 
 A sample entry from the treebank:
 
