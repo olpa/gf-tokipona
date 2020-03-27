@@ -31,9 +31,9 @@ concrete Grammar of GrammarBase = open Resources in {
 
     ComplV vp np = {s = vp.s ++ "e" ++ np.s} ;
 
-    AnswerYes v = {s = v.s ++ "."} ;
-    AnswerNo v = {s = v.s ++ "ala" ++ "."} ;
-    AnswerAla = {s = "ala" ++ "."} ;
+    AnswerYes v = {s = v.s} ;
+    AnswerNo v = {s = v.s ++ "ala"} ;
+    AnswerAla = {s = "ala"} ;
 
     AdjAP apBase ap = {s = apBase.s ++ ap.s} ;
     AdjVP vp ap = {s = vp.s ++ ap.s} ;

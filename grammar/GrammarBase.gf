@@ -50,11 +50,11 @@ abstract GrammarBase = {
     -- used as a verb, adding 'ala' in between
     QuestV : V -> VP ;
     -- To reply 'yes', repeat the verb.
-    AnswerYes : V -> S ;
+    AnswerYes : V -> Cl ;
     -- To reply 'no', repeat the verb with 'ala'
     -- or use 'ala' alone
-    AnswerNo : V -> S ;
-    AnswerAla : S ;
+    AnswerNo : V -> Cl ;
+    AnswerAla : Cl ;
 
     -- Prepositions often introduce a new noun.
     -- A preposition can be used at the end of a sentence.
