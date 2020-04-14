@@ -265,7 +265,6 @@ concrete Tokipona of TokiponaBase = Grammar ** open Paradigms in {
     Mun_A = mkA "mun" ;
     Musi_A = mkA "musi" ;
     Mute_A = mkA "mute" ;
-    NAME_A = mkA "NAME" ;
     Namako_A = mkA "namako" ;
     Nanpa_A = mkA "nanpa" ;
     Nasa_A = mkA "nasa" ;

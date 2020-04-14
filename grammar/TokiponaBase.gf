@@ -265,7 +265,6 @@ abstract TokiponaBase = GrammarBase ** {
     Mun_A : A ;
     Musi_A : A ;
     Mute_A : A ;
-    NAME_A : A ;
     Namako_A : A ;
     Nanpa_A : A ;
     Nasa_A : A ;

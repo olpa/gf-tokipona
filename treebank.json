@@ -180,10 +180,10 @@
     "tp": "mije sin li lon tomo telo anu seme ?"
   },
   {
-    "en": "My name is NAME.",
-    "gf": "UseCl (PredAP (AdjNP (UseN Nimi_N) (UseA Mi_A)) (UseA NAME_A))",
+    "en": "My name is Apu.",
+    "gf": "UseCl (PredAP (AdjNP (UseN Nimi_N) (UseA Mi_A)) (Name \"Apu\"))",
     "id": "tplangL09E01",
-    "tp": "nimi mi li NAME ."
+    "tp": "nimi mi li Nimi Apu ."
   },
   {
     "en": "Hello.",
@@ -199,7 +199,7 @@
   },
   {
     "en": "I am going.",
-    "gf": "UseCl (PredVP Mi_Pron (UseV Tawa_V))",
+    "gf": "UseCl (PredAP Mi_Pron (UseA Tawa_A))",
     "id": "tplangL10G05",
     "tp": "mi tawa ."
   },
@@ -223,9 +223,9 @@
   },
   {
     "en": "Hey Mortimer, is this your gerbil?",
-    "gf": "QuestUseCl (AddressCl (AdjNP (UseN Jan_N) (UseA NAME_A)) (AnuCl (PredNP (UseN Ni_N) (AdjNP (UseN Soweli_N) (UseA Sina_A)))))",
+    "gf": "QuestUseCl (AddressCl (AdjNP (UseN Jan_N) (Name \"Mosima\")) (AnuCl (PredNP (UseN Ni_N) (AdjNP (UseN Soweli_N) (UseA Sina_A)))))",
     "id": "tplangL10E02",
-    "tp": "jan NAME o , ni li soweli sina anu seme ?"
+    "tp": "jan Nimi Mosima o , ni li soweli sina anu seme ?"
   },
   {
     "en": "Please don't eat my turnip.",
@@ -349,8 +349,8 @@
   },
   {
     "en": "I want Mélanie to visit me.",
-    "gf": "UseCl (WithContextSc (PrepCl (PredVP (AdjNP (UseN Jan_N) (UseA NAME_A)) (UseV Kama_V)) Tawa_Prep (AdjNP (UseN Tomo_N) (UseA Mi_A))) (FragmentCl (PredVP Mi_Pron (ComplV (UseV Wile_V) (UseN Ni_N)))))",
+    "gf": "UseCl (WithContextSc (PrepCl (PredVP (AdjNP (UseN Jan_N) (Name \"Melani\")) (UseV Kama_V)) Tawa_Prep (AdjNP (UseN Tomo_N) (UseA Mi_A))) (FragmentCl (PredVP Mi_Pron (ComplV (UseV Wile_V) (UseN Ni_N)))))",
     "id": "tplangL17G01",
-    "tp": "mi wile e ni : jan NAME li kama tawa tomo mi ."
+    "tp": "mi wile e ni : jan Nimi Melani li kama tawa tomo mi ."
   }
 ]

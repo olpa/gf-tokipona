@@ -43,6 +43,8 @@ concrete Grammar of GrammarBase = open Resources in {
     Sina_Pron = {s = "sina"; isPronomen = True} ;
     Ona_Pron = {s = "ona"; isPronomen = False} ;
 
+    Name lit = {s = "Nimi" ++ lit.s} ;
+
     PrepCl cl prep np = {s = cl.s ++ prep.s ++ np.s} ;
     PrepNP np prep prepNp = {s = np.s
       ++ mkLi np.isPronomen ++ prep.s ++ prepNp.s} ;

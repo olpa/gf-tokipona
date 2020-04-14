@@ -63,6 +63,12 @@ abstract GrammarBase = {
     -- without a regular verb.
     PrepNP : NP -> Prep -> NP -> Cl ;
 
+    -- Proper names behave as adjectives.
+    -- Use them after a noun that describes what they are.
+    -- To mark a word as name, prefix it with 'Nimi':
+    -- 'ma tomo Nimi Isanpu' is 'Istanbul'.
+    Name : String -> AP ;
+
     -- To greet someone.
     -- Greetings are often not complete sentences.
     Greeting : NP -> Cl ;
