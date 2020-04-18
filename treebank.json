@@ -352,5 +352,11 @@
     "gf": "UseCl (WithContextSc (PrepCl (PredVP (AdjNP (UseN Jan_N) (Name \"Melani\")) (UseV Kama_V)) Tawa_Prep (AdjNP (UseN Tomo_N) (UseA Mi_A))) (FragmentCl (PredVP Mi_Pron (ComplV (UseV Wile_V) (UseN Ni_N)))))",
     "id": "tplangL17G01",
     "tp": "mi wile e ni : jan Nimi Melani li kama tawa tomo mi ."
+  },
+  {
+    "en": "On second day he heard a loud meow.",
+    "gf": "UseCl (WithContextLa (PredVP Ona_Pron (ComplV (UseV Kute_V) (AdjNP (UseN Mu_N) (UseA Wawa_A)))) (FragmentNP (AdjNP (AdjNP (UseN Tenpo_N) (UseA Suno_A)) (NumberAP Tu_Num))))",
+    "id": "increpareMuAsWord",
+    "tp": "tenpo suno nanpa tu la ona li kute e mu wawa ."
   }
 ]

@@ -49,6 +49,7 @@ abstract TokiponaBase = GrammarBase ** {
     Moku_N : N ;
     Moli_N : N ;
     Monsi_N : N ;
+    Mu_N : N ;
     Mun_N : N ;
     Musi_N : N ;
     Mute_N : N ;
@@ -155,6 +156,7 @@ abstract TokiponaBase = GrammarBase ** {
     Moku_V : V ;
     Moli_V : V ;
     Monsi_V : V ;
+    Mu_V : V ;
     Mun_V : V ;
     Musi_V : V ;
     Mute_V : V ;
@@ -262,6 +264,7 @@ abstract TokiponaBase = GrammarBase ** {
     Moku_A : A ;
     Moli_A : A ;
     Monsi_A : A ;
+    Mu_A : A ;
     Mun_A : A ;
     Musi_A : A ;
     Mute_A : A ;
