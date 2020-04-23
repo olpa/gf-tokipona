@@ -117,9 +117,11 @@ abstract GrammarBase = {
     FragmentAP : AP -> Fragment ;
     FragmentCl : Cl -> Fragment ;
     WithContextLa : Cl -> Fragment -> Cl ;
-    -- Versions with ', la' and ':'
-    WithContextCLa : Cl -> Fragment -> Cl ;
-    WithContextSc : Cl -> Fragment -> Cl ;
+    -- Versions
+    WithContextC : Cl -> Fragment -> Cl   ; -- ','
+    WithContextCLa : Cl -> Fragment -> Cl ; -- ', la'
+    WithContextCTaso : Cl -> Fragment -> Cl ; -- ', taso'
+    WithContextSc : Cl -> Fragment -> Cl  ; -- ':'
 
     -- There are many ways to translate 'and'
     -- 1. Join multiple subjects with 'en'

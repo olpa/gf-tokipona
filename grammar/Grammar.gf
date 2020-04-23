@@ -74,6 +74,8 @@ concrete Grammar of GrammarBase = open Resources in {
     FragmentCl f = {s = f.s} ;
     WithContextLa cl ctx = {s = ctx.s ++ "la" ++ cl.s} ;
     WithContextCLa cl ctx = {s = ctx.s ++ "," ++ "la" ++ cl.s} ;
+    WithContextCTaso cl ctx = {s = ctx.s ++ "," ++ "taso" ++ cl.s} ;
+    WithContextC cl ctx = {s = ctx.s ++ "," ++ cl.s} ;
     WithContextSc cl ctx = {s = ctx.s ++ ":" ++ cl.s} ;
 
     PredAndVP cl vp = {s = cl.s ++ "li" ++ vp.s} ;

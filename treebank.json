@@ -354,9 +354,15 @@
     "tp": "mi wile e ni : jan Nimi Melani li kama tawa tomo mi ."
   },
   {
-    "en": "On second day he heard a loud meow.",
+    "en": "On the second day, he hears the loud call of an animal.",
     "gf": "UseCl (WithContextLa (PredVP Ona_Pron (ComplV (UseV Kute_V) (AdjNP (UseN Mu_N) (UseA Wawa_A)))) (FragmentNP (AdjNP (AdjNP (UseN Tenpo_N) (UseA Suno_A)) (NumberAP Tu_Num))))",
-    "id": "increpareMuAsWord",
+    "id": "tplangL17StoryMuAsWord",
     "tp": "tenpo suno nanpa tu la ona li kute e mu wawa ."
+  },
+  {
+    "en": "Mawijo uses the bow, but the string breaks.",
+    "gf": "UseCl (WithContextCTaso (PredVP (UseN Linja_N) (UseV Pakala_V)) (FragmentCl (PredVP (AdjNP (UseN Jan_N) (Name \"Mawijo\")) (ComplV (UseV Kepeken_V) (AdjNP (UseN Ilo_N) (UseA Alasa_A))))))",
+    "id": "tplangL17StoryComma",
+    "tp": "jan Nimi Mawijo li kepeken e ilo alasa , taso linja li pakala ."
   }
 ]
