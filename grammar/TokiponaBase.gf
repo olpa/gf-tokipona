@@ -22,6 +22,7 @@ abstract TokiponaBase = GrammarBase ** {
     Kama_N : N ;
     Kasi_N : N ;
     Ken_N : N ;
+    Kepeken_N : N ;
     Kili_N : N ;
     Kiwen_N : N ;
     Ko_N : N ;
@@ -129,6 +130,7 @@ abstract TokiponaBase = GrammarBase ** {
     Kama_V : V ;
     Kasi_V : V ;
     Ken_V : V ;
+    Kepeken_V : V ;
     Kili_V : V ;
     Kiwen_V : V ;
     Ko_V : V ;
@@ -236,6 +238,7 @@ abstract TokiponaBase = GrammarBase ** {
     Kama_A : A ;
     Kasi_A : A ;
     Ken_A : A ;
+    Kepeken_A : A ;
     Kili_A : A ;
     Kiwen_A : A ;
     Ko_A : A ;
