@@ -7,9 +7,14 @@ def prepare_for_parse(i2tp):
         i2c[id_] = 'parse "%s"' % tp
     return i2c
 
-jtb = load_treebank()
-(i2tp, i2gf) = collect_tp_gf(jtb)
-cmds = prepare_for_parse(i2tp)
-i2r = run_gf_and_parse_output(cmds)
-nerr = check_expected_vs_result(i2gf, i2r)
-sys.exit(nerr)
+def parse():
+    jtb = load_treebank()
+    (i2tp, i2gf) = collect_tp_gf(jtb)
+    cmds = prepare_for_parse(i2tp)
+    i2r = run_gf_and_parse_output(cmds)
+    return (i2gf, i2r)
+
+if __name__ == '__main__':
+    (i2gf, i2r) = parse()
+    nerr = check_expected_vs_result(i2gf, i2r)
+    sys.exit(nerr)
