@@ -2,7 +2,7 @@ concrete Grammar of GrammarBase = open Resources in {
   lincat
     S, Cl, Fragment = {s: Str} ;
     NP = {s: Str; isPronomen: Bool} ;
-    VP, AP, CN, AdA = {s: Str} ;
+    VP, AP, CN, AdA, PrepP = {s: Str} ;
     N, A, V, V2, PreV, Prep, Interj, Num = {s: Str} ;
 
   oper
@@ -45,9 +45,11 @@ concrete Grammar of GrammarBase = open Resources in {
 
     Name lit = {s = "Nimi" ++ lit.s} ;
 
-    PrepCl cl prep np = {s = cl.s ++ prep.s ++ np.s} ;
-    PrepNP np prep prepNp = {s = np.s
-      ++ mkLi np.isPronomen ++ prep.s ++ prepNp.s} ;
+    UsePrep prep = {s = prep.s} ;
+    ComplPrep pp np = {s = pp.s ++ np.s} ;
+    PrepCl cl prep = {s = cl.s ++ prep.s} ;
+    PrepNP np prep = {s = np.s
+      ++ mkLi np.isPronomen ++ prep.s} ;
 
     IjAlone ij = {s = ij.s} ;
     IjExt base attr = {s = base.s ++ attr.s} ;

@@ -151,31 +151,37 @@
   },
   {
     "en": "I give fish in the home.",
-    "gf": "UseCl (PrepCl (PredVP Mi_Pron (ComplV (UseV Pana_V) (UseN Kala_N))) Lon_Prep (UseN Tomo_N))",
+    "gf": "UseCl (PrepCl (PredVP Mi_Pron (ComplV (UseV Pana_V) (UseN Kala_N))) (ComplPrep Lon_Prep (UseN Tomo_N)))",
     "id": "tplangL08G02",
     "tp": "mi pana e kala lon tomo ."
   },
   {
+    "en": "I am present.",
+    "gf": "UseCl (PrepNP Mi_Pron (UsePrep Lon_Prep))",
+    "id": "tplangL08T05",
+    "tp": "mi lon ."
+  },
+  {
     "en": "I am in the house.",
-    "gf": "UseCl (PrepNP Mi_Pron Lon_Prep (UseN Tomo_N))",
+    "gf": "UseCl (PrepNP Mi_Pron (ComplPrep Lon_Prep (UseN Tomo_N)))",
     "id": "tplangL08G04",
     "tp": "mi lon tomo ."
   },
   {
     "en": "Little animals are good to me.",
-    "gf": "UseCl (PrepCl (PredAP (AdjNP (UseN Soweli_N) (UseA Lili_A)) (UseA Pona_A)) Tawa_Prep Mi_Pron)",
+    "gf": "UseCl (PrepCl (PredAP (AdjNP (UseN Soweli_N) (UseA Lili_A)) (UseA Pona_A)) (ComplPrep Tawa_Prep Mi_Pron))",
     "id": "tplangL08E04",
     "tp": "soweli lili li pona tawa mi ."
   },
   {
     "en": "I know many languages because of this woman.",
-    "gf": "UseCl (PrepCl (PredVP Mi_Pron (ComplV (UseV Sona_V) (AdjNP (UseN Toki_N) (UseA Mute_A)))) Tan_Prep (AdjNP (UseN Meli_N) (UseA Ni_A)))",
+    "gf": "UseCl (PrepCl (PredVP Mi_Pron (ComplV (UseV Sona_V) (AdjNP (UseN Toki_N) (UseA Mute_A)))) (ComplPrep Tan_Prep (AdjNP (UseN Meli_N) (UseA Ni_A))))",
     "id": "tplangL08E06",
     "tp": "mi sona e toki mute tan meli ni ."
   },
   {
     "en": "Is the new man in the washroom?",
-    "gf": "QuestUseCl (AnuCl (PrepNP (AdjNP (UseN Mije_N) (UseA Sin_A)) Lon_Prep (AdjnpNP (UseN Tomo_N) (UseN Telo_N))))",
+    "gf": "QuestUseCl (AnuCl (PrepNP (AdjNP (UseN Mije_N) (UseA Sin_A)) (ComplPrep Lon_Prep (AdjnpNP (UseN Tomo_N) (UseN Telo_N)))))",
     "id": "tplangL08E07",
     "tp": "mije sin li lon tomo telo anu seme ?"
   },
@@ -235,7 +241,7 @@
   },
   {
     "en": "O God, give good to me.",
-    "gf": "UseCl (PrepCl (CommandPredVP (UseN Sewi_N) (ComplV (UseV Pana_V) (UseN Pona_N))) Tawa_Prep Mi_Pron)",
+    "gf": "UseCl (PrepCl (CommandPredVP (UseN Sewi_N) (ComplV (UseV Pana_V) (UseN Pona_N))) (ComplPrep Tawa_Prep Mi_Pron))",
     "id": "tplangL10E05",
     "tp": "sewi o pana e pona tawa mi ."
   },
@@ -313,19 +319,19 @@
   },
   {
     "en": "When I am good to people, people are good to me.",
-    "gf": "UseCl (WithContextCLa (PrepCl (PredVP (UseN Jan_N) (UseV Pona_V)) Tawa_Prep Mi_Pron) (FragmentCl (PrepCl (PredVP Mi_Pron (UseV Pona_V)) Tawa_Prep (UseN Jan_N))))",
+    "gf": "UseCl (WithContextCLa (PrepCl (PredVP (UseN Jan_N) (UseV Pona_V)) (ComplPrep Tawa_Prep Mi_Pron)) (FragmentCl (PrepCl (PredVP Mi_Pron (UseV Pona_V)) (ComplPrep Tawa_Prep (UseN Jan_N)))))",
     "id": "tplangL14E01",
     "tp": "mi pona tawa jan , la jan li pona tawa mi ."
   },
   {
     "en": "I am at your side.",
-    "gf": "UseCl (PrepNP Mi_Pron Lon_Prep (AdjNP (UseN Poka_N) (UseA Sina_A)))",
+    "gf": "UseCl (PrepNP Mi_Pron (ComplPrep Lon_Prep (AdjNP (UseN Poka_N) (UseA Sina_A))))",
     "id": "tplangL15E01",
     "tp": "mi lon poka sina ."
   },
   {
     "en": "I like sweets",
-    "gf": "UseCl (PrepCl (PredAP (UseN Suwi_N) (UseA Pona_A)) Tawa_Prep Mi_Pron)",
+    "gf": "UseCl (PrepCl (PredAP (UseN Suwi_N) (UseA Pona_A)) (ComplPrep Tawa_Prep Mi_Pron))",
     "id": "tplangL16E01",
     "tp": "suwi li pona tawa mi ."
   },
@@ -349,7 +355,7 @@
   },
   {
     "en": "I want Mélanie to visit me.",
-    "gf": "UseCl (WithContextSc (PrepCl (PredVP (AdjNP (UseN Jan_N) (Name \"Melani\")) (UseV Kama_V)) Tawa_Prep (AdjNP (UseN Tomo_N) (UseA Mi_A))) (FragmentCl (PredVP Mi_Pron (ComplV (UseV Wile_V) (UseN Ni_N)))))",
+    "gf": "UseCl (WithContextSc (PrepCl (PredVP (AdjNP (UseN Jan_N) (Name \"Melani\")) (UseV Kama_V)) (ComplPrep Tawa_Prep (AdjNP (UseN Tomo_N) (UseA Mi_A)))) (FragmentCl (PredVP Mi_Pron (ComplV (UseV Wile_V) (UseN Ni_N)))))",
     "id": "tplangL17G01",
     "tp": "mi wile e ni : jan Nimi Melani li kama tawa tomo mi ."
   },

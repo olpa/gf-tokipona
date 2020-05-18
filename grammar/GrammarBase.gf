@@ -4,7 +4,7 @@ abstract GrammarBase = {
 
   cat
     S ; Cl ; Fragment ;
-    NP ; VP ; AP ; CN ; AdA ;
+    NP ; VP ; AP ; CN ; AdA ; PrepP ;
     N ; A ; V ; V2 ; PreV ; Prep ; Interj ; Num ;
   fun
     -- To build a simple sentence in TokiPona, follow the model:
@@ -57,11 +57,13 @@ abstract GrammarBase = {
     AnswerAla : Cl ;
 
     -- Prepositions often introduce a new noun.
+    ComplPrep : Prep -> NP -> PrepP ;
+    UsePrep: Prep -> PrepP ;
     -- A preposition can be used at the end of a sentence.
-    PrepCl : Cl -> Prep -> NP -> Cl ;
+    PrepCl : Cl -> PrepP -> Cl ;
     -- A sentence can also use a preposition
     -- without a regular verb.
-    PrepNP : NP -> Prep -> NP -> Cl ;
+    PrepNP : NP -> PrepP -> Cl ;
 
     -- Proper names behave as adjectives.
     -- Use them after a noun that describes what they are.
