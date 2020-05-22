@@ -56,6 +56,10 @@ abstract GrammarBase = {
     AnswerNo : V -> Cl ;
     AnswerAla : Cl ;
 
+    -- `anu` can be used as `or` for noun phrases.
+    -- It is not described in the book, but seen in examples
+    OrNP : NP -> NP -> NP ;
+
     -- Prepositions often introduce a new noun.
     ComplPrep : Prep -> NP -> PrepP ;
     UsePrep: Prep -> PrepP ;

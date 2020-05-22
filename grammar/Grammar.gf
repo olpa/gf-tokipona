@@ -35,6 +35,8 @@ concrete Grammar of GrammarBase = open Resources in {
     AnswerNo v = {s = v.s ++ "ala"} ;
     AnswerAla = {s = "ala"} ;
 
+    OrNP np1 np2 = {s = np1.s ++ "anu" ++ np2.s; isPronomen = False} ;
+
     AdjAP apBase ap = {s = apBase.s ++ ap.s} ;
     AdjVP vp ap = {s = vp.s ++ ap.s} ;
     AdjNP np ap = {s = np.s ++ ap.s; isPronomen = False} ;

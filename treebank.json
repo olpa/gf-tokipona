@@ -150,6 +150,12 @@
     "tp": "kala wawa li moku e seme ?"
   },
   {
+    "en": "I hear man or a woman.",
+    "gf": "UseCl (PredVP Mi_Pron (ComplV (UseV Kute_V) (OrNP (UseN Mije_N) (UseN Meli_N))))",
+    "id": "tplangL07E07",
+    "tp": "mi kute e mije anu meli ."
+  },
+  {
     "en": "I give fish in the home.",
     "gf": "UseCl (PrepCl (PredVP Mi_Pron (ComplV (UseV Pana_V) (UseN Kala_N))) (ComplPrep Lon_Prep (UseN Tomo_N)))",
     "id": "tplangL08G02",
