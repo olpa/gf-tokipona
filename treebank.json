@@ -1,163 +1,163 @@
 [
   {
     "en": "This is a person.",
-    "gf": "UseCl (Clause (UseN Ni_N) (PredNP (UseN Jan_N)))",
+    "gf": "UseCl (Clause (UseN Ni_W) (PredNP (UseN Jan_W)))",
     "id": "tplangL02E01",
     "tp": "ni li jan ."
   },
   {
     "en": "Water is good.",
-    "gf": "UseCl (Clause (UseN Telo_N) (PredNP (UseN Pona_N)))",
+    "gf": "UseCl (Clause (UseN Telo_W) (PredNP (UseN Pona_W)))",
     "id": "tplangL03E01",
     "tp": "telo li pona ."
   },
   {
     "en": "This person is tall.",
-    "gf": "UseCl (Clause (AdjNP (UseN Jan_N) (UseA Ni_A)) (PredNP (UseN Suli_N)))",
+    "gf": "UseCl (Clause (AdjNP (UseN Jan_W) (UseA Ni_W)) (PredNP (UseN Suli_W)))",
     "id": "tplangL03E02",
     "tp": "jan ni li suli ."
   },
   {
     "en": "This is a friend.",
-    "gf": "UseCl (Clause (UseN Ni_N) (PredNP (AdjNP (UseN Jan_N) (UseA Pona_A))))",
+    "gf": "UseCl (Clause (UseN Ni_W) (PredNP (AdjNP (UseN Jan_W) (UseA Pona_W))))",
     "id": "tplangL03T02",
     "tp": "ni li jan pona ."
   },
   {
     "en": "This is a book of animals.",
-    "gf": "UseCl (Clause (UseN Ni_N) (PredNP (AdjNP (UseN Lipu_N) (UseA Soweli_A))))",
+    "gf": "UseCl (Clause (UseN Ni_W) (PredNP (AdjNP (UseN Lipu_W) (UseA Soweli_W))))",
     "id": "tplangL03O01",
     "tp": "ni li lipu soweli ."
   },
   {
     "en": "I'm a man",
-    "gf": "UseCl (Clause Mi_Pron (PredNP (UseN Mije_N)))",
+    "gf": "UseCl (Clause Mi_Pron (PredNP (UseN Mije_W)))",
     "id": "tplangL04G01",
     "tp": "mi mije ."
   },
   {
     "en": "You're new",
-    "gf": "UseCl (Clause Sina_Pron (PredNP (UseN Sin_N)))",
+    "gf": "UseCl (Clause Sina_Pron (PredNP (UseN Sin_W)))",
     "id": "tplangL04G02",
     "tp": "sina sin ."
   },
   {
     "en": "The man knows",
-    "gf": "UseCl (Clause (UseN Mije_N) (PredNP (UseN Sona_N)))",
+    "gf": "UseCl (Clause (UseN Mije_W) (PredNP (UseN Sona_W)))",
     "id": "tplangL05G03",
     "tp": "mije li sona ."
   },
   {
     "en": "The man knows things",
-    "gf": "UseCl (Clause (UseN Mije_N) (ComplV (UseV Sona_V) (UseN Ijo_N)))",
+    "gf": "UseCl (Clause (UseN Mije_W) (ComplV (UseV Sona_W) (UseN Ijo_W)))",
     "id": "tplangL05G04",
     "tp": "mije li sona e ijo ."
   },
   {
     "en": "I know a simple language",
-    "gf": "UseCl (Clause Mi_Pron (ComplV (UseV Sona_V) (AdjNP (UseN Toki_N) (UseA Pona_A))))",
+    "gf": "UseCl (Clause Mi_Pron (ComplV (UseV Sona_W) (AdjNP (UseN Toki_W) (UseA Pona_W))))",
     "id": "tplangL05E01",
     "tp": "mi sona e toki pona ."
   },
   {
     "en": "I don't eat animals",
-    "gf": "UseCl (Clause Mi_Pron (ComplV (AdjVP (UseV Moku_V) (UseA Ala_A)) (UseN Soweli_N)))",
+    "gf": "UseCl (Clause Mi_Pron (ComplV (AdjVP (UseV Moku_W) (UseA Ala_W)) (UseN Soweli_W)))",
     "id": "tplangL06G01",
     "tp": "mi moku ala e soweli ."
   },
   {
     "en": "Your work is very good",
-    "gf": "UseCl (Clause (AdjNP (UseN Pali_N) (UseA Sina_A)) (PredNP (AdjNP (UseN Pona_N) (UseA Mute_A))))",
+    "gf": "UseCl (Clause (AdjNP (UseN Pali_W) (UseA Sina_W)) (PredNP (AdjNP (UseN Pona_W) (UseA Mute_W))))",
     "id": "tplangL06E01",
     "tp": "pali sina li pona mute ."
   },
   {
     "en": "Something is very very very important",
-    "gf": "UseCl (Clause (UseN Ijo_N) (PredNP (AdjNP (AdjNP (AdjNP (UseN Wawa_N) (UseA Mute_A)) (UseA Mute_A)) (UseA Mute_A))))",
+    "gf": "UseCl (Clause (UseN Ijo_W) (PredNP (AdjNP (AdjNP (AdjNP (UseN Wawa_W) (UseA Mute_W)) (UseA Mute_W)) (UseA Mute_W))))",
     "id": "tplangL06basedRecurse",
     "tp": "ijo li wawa mute mute mute ."
   },
   {
     "en": "What is new?",
-    "gf": "QuestUseCl (Clause (UseN Seme_N) (PredNP (UseN Sin_N)))",
+    "gf": "QuestUseCl (Clause (UseN Seme_W) (PredNP (UseN Sin_W)))",
     "id": "tplangL07G01",
     "tp": "seme li sin ?"
   },
   {
     "en": "Which person is speaking?",
-    "gf": "QuestUseCl (Clause (AdjNP (UseN Jan_N) (UseA Seme_A)) (PredNP (UseN Toki_N)))",
+    "gf": "QuestUseCl (Clause (AdjNP (UseN Jan_W) (UseA Seme_W)) (PredNP (UseN Toki_W)))",
     "id": "tplangL07G02",
     "tp": "jan seme li toki ?"
   },
   {
     "en": "Have you touched the official Toki Pona book?",
-    "gf": "QuestUseCl (Clause Sina_Pron (PredL (PredNP (UseN Pu_N)) PredInfixOr (PredNP (UseN Seme_N))))",
+    "gf": "QuestUseCl (Clause Sina_Pron (PredL (PredNP (UseN Pu_W)) PredInfixOr (PredNP (UseN Seme_W))))",
     "id": "tplangL07G03",
     "tp": "sina pu anu seme ?"
   },
   {
     "en": "Is she a parent?",
-    "gf": "QuestUseCl (Clause Ona_Pron (PredL (PredNP (UseN Mama_N)) PredInfixNot (PredNP (UseN Mama_N))))",
+    "gf": "QuestUseCl (Clause Ona_Pron (PredL (PredNP (UseN Mama_W)) PredInfixNot (PredNP (UseN Mama_W))))",
     "id": "tplangL07G04",
     "tp": "ona li mama ala mama ?"
   },
   {
     "en": "Yes.",
-    "gf": "UseCl (ClausePred (PredNP (UseN Mama_N)))",
+    "gf": "UseCl (ClausePred (PredNP (UseN Mama_W)))",
     "id": "tplangL07G05",
     "tp": "mama ."
   },
   {
     "en": "No.",
-    "gf": "UseCl (ClausePred (PredNP (AdjNP (UseN Mama_N) (UseA Ala_A))))",
+    "gf": "UseCl (ClausePred (PredNP (AdjNP (UseN Mama_W) (UseA Ala_W))))",
     "id": "tplangL07G06",
     "tp": "mama ala ."
   },
   {
     "en": "No.",
-    "gf": "UseCl (ClausePred (PredNP (UseN Ala_N)))",
+    "gf": "UseCl (ClausePred (PredNP (UseN Ala_W)))",
     "id": "tplangL07G07",
     "tp": "ala ."
   },
   {
     "en": "Does he have many vegetables?",
-    "gf": "QuestUseCl (Clause Ona_Pron (PredL (PredNP (UseN Jo_N)) PredInfixNot (ComplV (UseV Jo_V) (AdjNP (UseN Kili_N) (UseA Mute_A)))))",
+    "gf": "QuestUseCl (Clause Ona_Pron (PredL (PredNP (UseN Jo_W)) PredInfixNot (ComplV (UseV Jo_W) (AdjNP (UseN Kili_W) (UseA Mute_W)))))",
     "id": "tplangL07E01",
     "tp": "ona li jo ala jo e kili mute ?"
   },
   {
     "en": "Does the wise man carry a fish?",
-    "gf": "QuestUseCl (Clause (AdjNP (UseN Mije_N) (UseA Sona_A)) (PredL (ComplV (UseV Jo_V) (UseN Kala_N)) PredInfixOr (PredNP (UseN Seme_N))))",
+    "gf": "QuestUseCl (Clause (AdjNP (UseN Mije_W) (UseA Sona_W)) (PredL (ComplV (UseV Jo_W) (UseN Kala_W)) PredInfixOr (PredNP (UseN Seme_W))))",
     "id": "tplangL07E02",
     "tp": "mije sona li jo e kala anu seme ?"
   },
   {
     "en": "What are you doing to her?",
-    "gf": "QuestUseCl (Clause Sina_Pron (ComplV (UseV Seme_V) Ona_Pron))",
+    "gf": "QuestUseCl (Clause Sina_Pron (ComplV (UseV Seme_W) Ona_Pron))",
     "id": "tplangL07E04",
     "tp": "sina seme e ona ?"
   },
   {
     "en": "Do you obey your parents?",
-    "gf": "QuestUseCl (Clause Sina_Pron (PredL (PredNP (UseN Kute_N)) PredInfixNot (ComplV (UseV Kute_V) (AdjNP (UseN Mama_N) (UseA Sina_A)))))",
+    "gf": "QuestUseCl (Clause Sina_Pron (PredL (PredNP (UseN Kute_W)) PredInfixNot (ComplV (UseV Kute_W) (AdjNP (UseN Mama_W) (UseA Sina_W)))))",
     "id": "tplangL07E06",
     "tp": "sina kute ala kute e mama sina ?"
   },
   {
     "en": "What does a shark eat?",
-    "gf": "QuestUseCl (Clause (AdjNP (UseN Kala_N) (UseA Wawa_A)) (ComplV (UseV Moku_V) (UseN Seme_N)))",
+    "gf": "QuestUseCl (Clause (AdjNP (UseN Kala_W) (UseA Wawa_W)) (ComplV (UseV Moku_W) (UseN Seme_W)))",
     "id": "tplangL07E07",
     "tp": "kala wawa li moku e seme ?"
   },
   {
     "en": "I hear man or a woman.",
-    "gf": "UseCl (Clause Mi_Pron (ComplV (UseV Kute_V) (OrNP (UseN Mije_N) (UseN Meli_N))))",
+    "gf": "UseCl (Clause Mi_Pron (ComplV (UseV Kute_W) (OrNP (UseN Mije_W) (UseN Meli_W))))",
     "id": "tplangL07E07",
     "tp": "mi kute e mije anu meli ."
   },
   {
     "en": "I give fish in the home.",
-    "gf": "UseCl (Clause Mi_Pron (PredPrepL (ComplV (UseV Pana_V) (UseN Kala_N)) (ComplPrep Lon_Prep (UseN Tomo_N))))",
+    "gf": "UseCl (Clause Mi_Pron (PredPrepL (ComplV (UseV Pana_W) (UseN Kala_W)) (ComplPrep Lon_Prep (UseN Tomo_W))))",
     "id": "tplangL08G02",
     "tp": "mi pana e kala lon tomo ."
   },
@@ -169,43 +169,43 @@
   },
   {
     "en": "I am in the house.",
-    "gf": "UseCl (Clause Mi_Pron (PredPrep (ComplPrep Lon_Prep (UseN Tomo_N))))",
+    "gf": "UseCl (Clause Mi_Pron (PredPrep (ComplPrep Lon_Prep (UseN Tomo_W))))",
     "id": "tplangL08G04",
     "tp": "mi lon tomo ."
   },
   {
     "en": "Little animals are good to me.",
-    "gf": "UseCl (Clause (AdjNP (UseN Soweli_N) (UseA Lili_A)) (PredPrepL (PredNP (UseN Pona_N)) (ComplPrep Tawa_Prep Mi_Pron)))",
+    "gf": "UseCl (Clause (AdjNP (UseN Soweli_W) (UseA Lili_W)) (PredPrepL (PredNP (UseN Pona_W)) (ComplPrep Tawa_Prep Mi_Pron)))",
     "id": "tplangL08E04",
     "tp": "soweli lili li pona tawa mi ."
   },
   {
     "en": "I know many languages because of this woman.",
-    "gf": "UseCl (Clause Mi_Pron (PredPrepL (ComplV (UseV Sona_V) (AdjNP (UseN Toki_N) (UseA Mute_A))) (ComplPrep Tan_Prep (AdjNP (UseN Meli_N) (UseA Ni_A)))))",
+    "gf": "UseCl (Clause Mi_Pron (PredPrepL (ComplV (UseV Sona_W) (AdjNP (UseN Toki_W) (UseA Mute_W))) (ComplPrep Tan_Prep (AdjNP (UseN Meli_W) (UseA Ni_W)))))",
     "id": "tplangL08E06",
     "tp": "mi sona e toki mute tan meli ni ."
   },
   {
     "en": "Is the new man in the washroom?",
-    "gf": "QuestUseCl (Clause (AdjNP (UseN Mije_N) (UseA Sin_A)) (PredL (PredPrep (ComplPrep Lon_Prep (AdjNP (UseN Tomo_N) (UseA Telo_A)))) PredInfixOr (PredNP (UseN Seme_N))))",
+    "gf": "QuestUseCl (Clause (AdjNP (UseN Mije_W) (UseA Sin_W)) (PredL (PredPrep (ComplPrep Lon_Prep (AdjNP (UseN Tomo_W) (UseA Telo_W)))) PredInfixOr (PredNP (UseN Seme_W))))",
     "id": "tplangL08E07",
     "tp": "mije sin li lon tomo telo anu seme ?"
   },
   {
     "en": "My name is Apu.",
-    "gf": "UseCl (Clause (AdjNP (UseN Nimi_N) (UseA Mi_A)) (PredNP (NameNP \"Apu\")))",
+    "gf": "UseCl (Clause (AdjNP (UseN Nimi_W) (UseA Mi_W)) (PredNP (NameNP \"Apu\")))",
     "id": "tplangL09E01",
     "tp": "nimi mi li Nimi Apu ."
   },
   {
     "en": "Hello.",
-    "gf": "ExclUseCl (ClausePred (PredNP (UseN Toki_N)))",
+    "gf": "ExclUseCl (ClausePred (PredNP (UseN Toki_W)))",
     "id": "tplangL10G01",
     "tp": "toki !"
   },
   {
     "en": "Welcome!",
-    "gf": "ExclUseCl (ClausePred (PredNP (AdjNP (UseN Kama_N) (UseA Pona_A))))",
+    "gf": "ExclUseCl (ClausePred (PredNP (AdjNP (UseN Kama_W) (UseA Pona_W))))",
     "id": "tplangL10G03",
     "tp": "kama pona !"
   },
@@ -217,61 +217,61 @@
   },
   {
     "en": "Good departure!",
-    "gf": "UseCl (ClausePred (PredNP (AdjNP (UseN Tawa_N) (UseA Pona_A))))",
+    "gf": "UseCl (ClausePred (PredPrep (ComplPrep Tawa_Prep (UseN Pona_W))))",
     "id": "tplangL10G06",
     "tp": "tawa pona ."
   },
   {
     "en": "Don't speak.",
-    "gf": "UseCl (Command (PredNP (AdjNP (UseN Toki_N) (UseA Ala_A))))",
+    "gf": "UseCl (Command (PredNP (AdjNP (UseN Toki_W) (UseA Ala_W))))",
     "id": "tplangL10E01A",
     "tp": "o toki ala ."
   },
   {
     "en": "Take action.",
-    "gf": "UseCl (Command (PredNP (UseN Pali_N)))",
+    "gf": "UseCl (Command (PredNP (UseN Pali_W)))",
     "id": "tplangL10E01B",
     "tp": "o pali ."
   },
   {
     "en": "Hey Mortimer, is this your gerbil?",
-    "gf": "QuestUseCl (WithContextC (Clause (UseN Ni_N) (PredL (PredNP (AdjNP (UseN Soweli_N) (UseA Sina_A))) PredInfixOr (PredNP (UseN Seme_N)))) (Vocative (AdjNP (UseN Jan_N) (Name \"Mosima\"))))",
+    "gf": "QuestUseCl (WithContextC (Clause (UseN Ni_W) (PredL (PredNP (AdjNP (UseN Soweli_W) (UseA Sina_W))) PredInfixOr (PredNP (UseN Seme_W)))) (Vocative (AdjNP (UseN Jan_W) (Name \"Mosima\"))))",
     "id": "tplangL10E02",
     "tp": "jan Nimi Mosima o , ni li soweli sina anu seme ?"
   },
   {
     "en": "Please don't eat my turnip.",
-    "gf": "UseCl (Command (ComplV (AdjVP (UseV Moku_V) (UseA Ala_A)) (AdjNP (UseN Kili_N) (UseA Mi_A))))",
+    "gf": "UseCl (Command (ComplV (AdjVP (UseV Moku_W) (UseA Ala_W)) (AdjNP (UseN Kili_W) (UseA Mi_W))))",
     "id": "tplangL10E03",
     "tp": "o moku ala e kili mi ."
   },
   {
     "en": "O God, give good to me.",
-    "gf": "UseCl (Wish (UseN Sewi_N) (PredPrepL (ComplV (UseV Pana_V) (UseN Pona_N)) (ComplPrep Tawa_Prep Mi_Pron)))",
+    "gf": "UseCl (Wish (UseN Sewi_W) (PredPrepL (ComplV (UseV Pana_W) (UseN Pona_W)) (ComplPrep Tawa_Prep Mi_Pron)))",
     "id": "tplangL10E05",
     "tp": "sewi o pana e pona tawa mi ."
   },
   {
     "en": "Obey your parents.",
-    "gf": "UseCl (Command (ComplV (UseV Kute_V) (AdjNP (UseN Mama_N) (UseA Sina_A))))",
+    "gf": "UseCl (Command (ComplV (UseV Kute_W) (AdjNP (UseN Mama_W) (UseA Sina_W))))",
     "id": "tplangL10E06",
     "tp": "o kute e mama sina ."
   },
   {
     "en": "You're so tall!",
-    "gf": "ExclUseCl (PostfixIjCl (Clause Sina_Pron (PredNP (UseN Suli_N))) A_Ij)",
+    "gf": "ExclUseCl (PostfixIjCl (Clause Sina_Pron (PredNP (UseN Suli_W))) A_Ij)",
     "id": "tplangL10E07",
     "tp": "sina suli a !"
   },
   {
     "en": "Thanks you!",
-    "gf": "ExclUseCl (ClausePred (PredNP (UseN Pona_N)))",
+    "gf": "ExclUseCl (ClausePred (PredNP (UseN Pona_W)))",
     "id": "tplangL10E08",
     "tp": "pona !"
   },
   {
     "en": "I should eat good things.",
-    "gf": "UseCl (Wish Mi_Pron (ComplV (UseV Moku_V) (AdjNP (UseN Ijo_N) (UseA Pona_A))))",
+    "gf": "UseCl (Wish Mi_Pron (ComplV (UseV Moku_W) (AdjNP (UseN Ijo_W) (UseA Pona_W))))",
     "id": "tplangL10E09",
     "tp": "mi o moku e ijo pona ."
   },
@@ -289,19 +289,19 @@
   },
   {
     "en": "Warm water! It's so beautiful.",
-    "gf": "UseCl (Clause (IjNP (AdjNP (UseN Telo_N) (UseA Seli_A)) A_Ij) (PredNP (UseN Pona_N)))",
+    "gf": "UseCl (Clause (IjNP (AdjNP (UseN Telo_W) (UseA Seli_W)) A_Ij) (PredNP (UseN Pona_W)))",
     "id": "tplangL10X01",
     "tp": "telo seli a li pona ."
   },
   {
     "en": "I'm a person of much good.",
-    "gf": "UseCl (Clause Mi_Pron (PredNP (PiNP (UseN Jan_N) (AdjNP (UseN Pona_N) (UseA Mute_A)))))",
+    "gf": "UseCl (Clause Mi_Pron (PredNP (PiNP (UseN Jan_W) (AdjNP (UseN Pona_W) (UseA Mute_W)))))",
     "id": "tplangL11G05X01",
     "tp": "mi jan pi pona mute ."
   },
   {
     "en": "I know four languages.",
-    "gf": "UseCl (Clause Mi_Pron (ComplV (UseV Sona_V) (AdjNP (UseN Toki_N) (Number (GrowNum Tu_Num Tu_Num)))))",
+    "gf": "UseCl (Clause Mi_Pron (ComplV (UseV Sona_W) (AdjNP (UseN Toki_W) (Number (GrowNum Tu_Num Tu_Num)))))",
     "id": "tplangL12T06",
     "tp": "mi sona e toki tu tu ."
   },
@@ -313,67 +313,67 @@
   },
   {
     "en": "I am learning Toki Pona.",
-    "gf": "UseCl (Clause Mi_Pron (ComplV (WithPreV Sona_V Kama_PV) (AdjNP (UseN Toki_N) (UseA Pona_A))))",
+    "gf": "UseCl (Clause Mi_Pron (ComplV (WithPreV Sona_W Kama_PV) (AdjNP (UseN Toki_W) (UseA Pona_W))))",
     "id": "tplangL13E02",
     "tp": "mi kama sona e toki pona ."
   },
   {
     "en": "Tonight, he is coming.",
-    "gf": "UseCl (WithContext (Clause Ona_Pron (PredNP (UseN Kama_N))) (FragmentNP (AdjNP (AdjNP (UseN Tenpo_N) (UseA Pimeja_A)) (UseA Ni_A))))",
+    "gf": "UseCl (WithContext (Clause Ona_Pron (PredNP (UseN Kama_W))) (FragmentNP (AdjNP (AdjNP (UseN Tenpo_W) (UseA Pimeja_W)) (UseA Ni_W))))",
     "id": "tplangL14G02",
     "tp": "tenpo pimeja ni la ona li kama ."
   },
   {
     "en": "When I am good to people, people are good to me.",
-    "gf": "UseCl (WithContextCLa (Clause (UseN Jan_N) (PredPrepL (PredNP (UseN Pona_N)) (ComplPrep Tawa_Prep Mi_Pron))) (FragmentCl (Clause Mi_Pron (PredPrepL (PredNP (UseN Pona_N)) (ComplPrep Tawa_Prep (UseN Jan_N))))))",
+    "gf": "UseCl (WithContextCLa (Clause (UseN Jan_W) (PredPrepL (PredNP (UseN Pona_W)) (ComplPrep Tawa_Prep Mi_Pron))) (FragmentCl (Clause Mi_Pron (PredPrepL (PredNP (UseN Pona_W)) (ComplPrep Tawa_Prep (UseN Jan_W))))))",
     "id": "tplangL14E01",
     "tp": "mi pona tawa jan , la jan li pona tawa mi ."
   },
   {
     "en": "I am at your side.",
-    "gf": "UseCl (Clause Mi_Pron (PredPrep (ComplPrep Lon_Prep (AdjNP (UseN Poka_N) (UseA Sina_A)))))",
+    "gf": "UseCl (Clause Mi_Pron (PredPrep (ComplPrep Lon_Prep (AdjNP (UseN Poka_W) (UseA Sina_W)))))",
     "id": "tplangL15E01",
     "tp": "mi lon poka sina ."
   },
   {
     "en": "I like sweets",
-    "gf": "UseCl (Clause (UseN Suwi_N) (PredPrepL (PredNP (UseN Pona_N)) (ComplPrep Tawa_Prep Mi_Pron)))",
+    "gf": "UseCl (Clause (UseN Suwi_W) (PredPrepL (PredNP (UseN Pona_W)) (ComplPrep Tawa_Prep Mi_Pron)))",
     "id": "tplangL16E01",
     "tp": "suwi li pona tawa mi ."
   },
   {
     "en": "The fatherland is small and cold.",
-    "gf": "UseCl (Clause (AdjNP (UseN Ma_N) (UseA Mama_A)) (PredL (PredNP (UseN Lili_N)) PredInfixAnd (PredNP (UseN Lete_N))))",
+    "gf": "UseCl (Clause (AdjNP (UseN Ma_W) (UseA Mama_W)) (PredL (PredNP (UseN Lili_W)) PredInfixAnd (PredNP (UseN Lete_W))))",
     "id": "tplangL16E03",
     "tp": "ma mama li lili li lete ."
   },
   {
     "en": "But men and women are working and are happy.",
-    "gf": "UseCl (PrefixIjCl (Clause (AndNP (UseN Mije_N) (UseN Meli_N)) (PredL (PredNP (UseN Pali_N)) PredInfixAnd (PredNP (AdjNP (UseN Pilin_N) (UseA Pona_A))))) Taso_Ij)",
+    "gf": "UseCl (PrefixIjCl (Clause (AndNP (UseN Mije_W) (UseN Meli_W)) (PredL (PredNP (UseN Pali_W)) PredInfixAnd (PredNP (AdjNP (UseN Pilin_W) (UseA Pona_W))))) Taso_Ij)",
     "id": "tplangL16E04",
     "tp": "taso mije en meli li pali li pilin pona ."
   },
   {
     "en": "My sister opened the first door and the second door.",
-    "gf": "UseCl (Clause (AdjNP (AdjNP (UseN Meli_N) (UseA Sama_A)) (UseA Mi_A)) (ComplV (UseV Open_V) (AndComplNP (AdjNP (UseN Lupa_N) (OrdinalAP Wan_Num)) (AdjNP (UseN Lupa_N) (OrdinalAP Tu_Num)))))",
+    "gf": "UseCl (Clause (AdjNP (AdjNP (UseN Meli_W) (UseA Sama_W)) (UseA Mi_W)) (ComplV (UseV Open_W) (AndComplNP (AdjNP (UseN Lupa_W) (OrdinalA Wan_Num)) (AdjNP (UseN Lupa_W) (OrdinalA Tu_Num)))))",
     "id": "tplangL16E05",
     "tp": "meli sama mi li open e lupa nanpa wan e lupa nanpa tu ."
   },
   {
     "en": "I want Mélanie to visit me.",
-    "gf": "UseCl (WithContextSc (Clause (AdjNP (UseN Jan_N) (Name \"Melani\")) (PredPrepL (PredNP (UseN Kama_N)) (ComplPrep Tawa_Prep (AdjNP (UseN Tomo_N) (UseA Mi_A))))) (FragmentCl (Clause Mi_Pron (ComplV (UseV Wile_V) (UseN Ni_N)))))",
+    "gf": "UseCl (WithContextSc (Clause (AdjNP (UseN Jan_W) (Name \"Melani\")) (PredPrepL (PredNP (UseN Kama_W)) (ComplPrep Tawa_Prep (AdjNP (UseN Tomo_W) (UseA Mi_W))))) (FragmentCl (Clause Mi_Pron (ComplV (UseV Wile_W) (UseN Ni_W)))))",
     "id": "tplangL17G01",
     "tp": "mi wile e ni : jan Nimi Melani li kama tawa tomo mi ."
   },
   {
     "en": "On the second day, he hears the loud call of an animal.",
-    "gf": "UseCl (WithContext (Clause Ona_Pron (ComplV (UseV Kute_V) (AdjNP (UseN Mu_N) (UseA Wawa_A)))) (FragmentNP (AdjNP (AdjNP (UseN Tenpo_N) (UseA Suno_A)) (OrdinalAP Tu_Num))))",
+    "gf": "UseCl (WithContext (Clause Ona_Pron (ComplV (UseV Kute_W) (AdjNP (UseN Mu_W) (UseA Wawa_W)))) (FragmentNP (AdjNP (AdjNP (UseN Tenpo_W) (UseA Suno_W)) (OrdinalA Tu_Num))))",
     "id": "tplangL17StoryMuAsWord",
     "tp": "tenpo suno nanpa tu la ona li kute e mu wawa ."
   },
   {
     "en": "God is the tangential point between zero and infinity.",
-    "gf": "UseCl (Clause (UseN Sewi_N) (PredL (PredPrep (ComplPrep Lon_Prep (UseN Ala_N))) PredInfixAnd (PredPrep (ComplPrep Lon_Prep (UseN Ale_N)))))",
+    "gf": "UseCl (Clause (UseN Sewi_W) (PredL (PredPrep (ComplPrep Lon_Prep (UseN Ala_W))) PredInfixAnd (PredPrep (ComplPrep Lon_Prep (UseN Ale_W)))))",
     "id": "tplangQuotation04",
     "tp": "sewi li lon ala li lon ale ."
   }

@@ -4,20 +4,10 @@ resource Resources = {
 
   oper
 
-  Noun: Type = {s: Str} ;
+  Word: Type = {s: Str} ;
 
-  mkNoun : Str -> Noun
-    = \n -> {s = n};
-
-  Adj: Type = {s: Str} ;
-
-  mkAdj : Str -> Adj
-    = \a -> {s = a};
-
-  Verb: Type = {s: Str} ;
-
-  mkVerb : Str -> Verb
-    = \v -> {s = v};
+  mkWord : Str -> Word
+    = \w -> {s = w};
 
   Preposition: Type = {s: Str} ;
 

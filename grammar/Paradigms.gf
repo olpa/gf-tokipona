@@ -3,14 +3,8 @@ resource Paradigms = Grammar **
 
 oper
 
-  mkN : Str -> N
-    = \n -> lin N (mkNoun n) ;
-
-  mkA : Str -> Adj
-    = \a -> lin Adj (mkAdj a) ;
-
-  mkV : Str -> V
-    = \v -> lin V (mkVerb v) ;
+  mkW : Str -> W
+    = \w -> lin W (mkWord w) ;
 
   mkPrep : Str -> Prep
     = \p -> lin Prep (mkPreposition p) ;

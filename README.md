@@ -23,16 +23,14 @@ $ gf Tokipona.gf
 ...
 
 
-Test> linearize UseCl (PredNP Sina_Pron (AdjNP (UseN Mije_N) (UseA Sona_A)))
+Test> linearize UseCl (Clause Sina_Pron (PredNP (AdjNP (UseN Mije_W) (UseA Sona_W))))
 sina mije sona .
 
 
 Test> parse "sina mije sona ."
-UseCl (Greeting (AdjNP Sina_Pron (AdjAP (UseA Mije_A) (UseA Sona_A))))
-...
-UseCl (PredAP Sina_Pron (AdjAP (UseA Mije_A) (UseA Sona_A)))
-UseCl (PredNP Sina_Pron (AdjNP (UseN Mije_N) (UseA Sona_A)))
-UseCl (PredNP Sina_Pron (AdjnpNP (UseN Mije_N) (UseN Sona_N)))
+UseCl (Clause Sina_Pron (PredNP (AdjNP (UseN Mije_W) (UseA Sona_W))))
+UseCl (ClausePred (PredNP (AdjNP (AdjNP Sina_Pron (UseA Mije_W)) (UseA Sona_W))))
+UseCl (ClausePred (PredNP (AdjNP (AdjNP (UseN Sina_W) (UseA Mije_W)) (UseA Sona_W))))
 ```
 
 ## Explanation
@@ -42,16 +40,15 @@ UseCl (PredNP Sina_Pron (AdjnpNP (UseN Mije_N) (UseN Sona_N)))
 Consider the following parse tree:
 
 ```
-UseCl (PredNP
+"sina mije sona ." ->
+
+UseCl (Clause
           Sina_Pron
-          (AdjNP (UseN Mije_N) (UseA Sona_A)))
+          (PredNP
+              (AdjNP (UseN Mije_W) (UseA Sona_W))))
 ```
 
-The book says: "to build a simple sentence in Toki Pona, follow the model: NOUN + li + NOUN". The corresponding constructor is `PredNP np1 np2` where `np1` and `np2` are two noun phrases.
-
-The first noun phrase is the pronomen "sina".
-
-The second noun phrase is given by the constructor `AdjNP np adj`, which implements this rule: "an adjective can also be added after a noun to describe it".
+A `Clause` consists of a subject and a predicate. The subject is the pronomen `sina`. The predicate `PredNP` is a noun phrase predicate `mije sona`, which is a noun `mije` with adjective `sona`.
 
 The constructor `UseCl cl` makes a sentence by adding a dot at the end of the clause.
 
@@ -66,7 +63,7 @@ A sample entry from the treebank:
 ```
   {
     "en": "This is a person.",
-    "gf": "UseCl (PredNP (UseN Ni_N) (UseN Jan_N))",
+    "gf": "UseCl (Clause (UseN Ni_W) (PredNP (UseN Jan_W)))",
     "id": "tplangL02E01",
     "tp": "ni li jan ."
   },

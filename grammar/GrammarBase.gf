@@ -2,8 +2,8 @@ abstract GrammarBase = {
   flags startcat = S;
   cat
     S ; Cl ; Fragment ;
-    NP ; VP ; AP ; CN ; AdA ; PrepP ;
-    N ; A ; V ; V2 ; PreV ; Prep ; Interj ; Num ; Pred ; PredInfix ;
+    NP ; VP ; A ; PrepP ;
+    W ; PreV ; Prep ; Interj ; Num ; Pred ; PredInfix ;
   fun
 
     --
@@ -24,10 +24,10 @@ abstract GrammarBase = {
     -- For example,
     --   "ni li jan"
     -- is
-    --   (Clause (UseN Ni_N) (PredNP (UseN Jan_N)))
+    --   (Clause (UseN Ni_W) (PredNP (UseN Jan_W)))
     --
     Clause : NP -> Pred -> Cl ;
-    UseN : N -> NP ;
+    UseN : W -> NP ;
     PredNP : NP -> Pred ;
 
     --
@@ -36,8 +36,8 @@ abstract GrammarBase = {
     --PU-- An adjective is a word that describes a noun.
     --PU-- An adjective can also be added after a noun to describe it.
 
-    UseA : A -> AP ;
-    AdjNP : NP -> AP -> NP ;
+    UseA : W -> A ;
+    AdjNP : NP -> A -> NP ;
 
     --
     -- Not:
@@ -81,8 +81,8 @@ abstract GrammarBase = {
     --PU-- An adjective can also be used directly after a verb
     --PU-- to modify it.
     --
-    UseV : V -> VP ;
-    AdjVP : VP -> AP -> VP ;
+    UseV : W -> VP ;
+    AdjVP : VP -> A -> VP ;
 
     --
     -- Not exactly:
@@ -119,7 +119,7 @@ abstract GrammarBase = {
     --
     --PU-- A pre-verb can be added before a main verb
     --
-    WithPreV : V -> PreV -> VP ;
+    WithPreV : W -> PreV -> VP ;
 
     --
     -- A clause can have several predicated
@@ -182,7 +182,7 @@ abstract GrammarBase = {
     -- To mark a word as name, prefix it with 'Nimi':
     -- 'ma tomo Nimi Isanpu' is 'Istanbul'.
     --
-    Name : String -> AP ;
+    Name : String -> A ;
     NameNP : String -> NP ;
 
     --
@@ -241,14 +241,14 @@ abstract GrammarBase = {
     --PU-- Add them one after another.
     --
     GrowNum : Num -> Num -> Num ;
-    Number : Num -> AP ;
+    Number : Num -> A ;
 
     --
     --PU-- For ordinal numbers, add the particle 'nanpa' before
     --PU-- the number.
     --
     OrdinalNP : Num -> NP ;
-    OrdinalAP : Num -> AP ;
+    OrdinalA : Num -> A ;
 
     --
     --PU-- The particle 'la' allows to link two sentences,

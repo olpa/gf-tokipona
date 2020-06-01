@@ -2,8 +2,8 @@ concrete Grammar of GrammarBase = open Resources in {
   lincat
     S, Cl, Fragment = {s: Str} ;
     NP = {s: Str; isPronomen: Bool} ;
-    VP, AP, CN, AdA, PrepP = {s: Str} ;
-    N, A, V, V2, PreV, Prep, Interj, Num, Pred, PredInfix = {s: Str} ;
+    VP, A, PrepP = {s: Str} ;
+    W, PreV, Prep, Interj, Num, Pred, PredInfix = {s: Str} ;
   oper
     mkLi : Bool -> Str
       = \b -> table { True => []; _ => "li" } ! b ;
@@ -62,7 +62,7 @@ concrete Grammar of GrammarBase = open Resources in {
     GrowNum base ext = {s = base.s ++ ext.s} ;
     Number n = {s = n.s} ;
     OrdinalNP n = {s = "nanpa" ++ n.s; isPronomen = False} ;
-    OrdinalAP n = {s = "nanpa" ++ n.s} ;
+    OrdinalA n = {s = "nanpa" ++ n.s} ;
 
     FragmentNP f = {s = f.s} ;
     FragmentVP f = {s = f.s} ;
