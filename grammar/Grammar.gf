@@ -37,6 +37,7 @@ concrete Grammar of GrammarBase = open Resources in {
     PredInfixNot = {s = "ala"} ;
     PredInfixOr = {s = "anu"} ;
     PredInfixAnd = {s = "li"} ;
+    PredInfixCAnd = {s = "," ++ "li"} ;
     PredPrep p = {s = p.s} ;
 
     ClausePred pred = {s = pred.s} ;

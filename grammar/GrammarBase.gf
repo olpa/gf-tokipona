@@ -130,9 +130,10 @@ abstract GrammarBase = {
     PredL : Pred -> PredInfix -> Pred -> Pred ;
     PredPrepL : Pred -> PrepP -> Pred ;
 
-    PredInfixNot : PredInfix ;
-    PredInfixOr : PredInfix ;
-    PredInfixAnd : PredInfix ;
+    PredInfixNot : PredInfix ; -- ala
+    PredInfixOr : PredInfix ; -- anu
+    PredInfixAnd : PredInfix ; -- li
+    PredInfixCAnd : PredInfix ; -- , li
     PredPrep : PrepP -> Pred ;
 
     --

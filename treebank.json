@@ -372,6 +372,12 @@
     "tp": "tenpo suno nanpa tu la ona li kute e mu wawa ."
   },
   {
+    "en": "Sili is happy and kisses Mawijo.",
+    "gf": "UseCl (Clause (AdjNP (UseN Jan_W) (Name \"Sili\")) (PredL (PredNP (AdjNP (UseN Pilin_W) (UseA Pona_W))) PredInfixCAnd (ComplV (UseV Uta_W) (AdjNP (UseN Jan_W) (Name \"Mawijo\")))))",
+    "id": "tplangL18StoryComma",
+    "tp": "jan Nimi Sili li pilin pona , li uta e jan Nimi Mawijo ."
+  },
+  {
     "en": "God is the tangential point between zero and infinity.",
     "gf": "UseCl (Clause (UseN Sewi_W) (PredL (PredPrep (ComplPrep Lon_Prep (UseN Ala_W))) PredInfixAnd (PredPrep (ComplPrep Lon_Prep (UseN Ale_W)))))",
     "id": "tplangQuotation04",
