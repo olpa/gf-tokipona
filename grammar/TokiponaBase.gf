@@ -22,7 +22,6 @@ abstract TokiponaBase = GrammarBase ** {
     Kama_W : W ;
     Kasi_W : W ;
     Ken_W : W ;
-    Kepeken_W : W ;
     Kili_W : W ;
     Kiwen_W : W ;
     Ko_W : W ;
@@ -97,6 +96,7 @@ abstract TokiponaBase = GrammarBase ** {
     Suno_W : W ;
     Supa_W : W ;
     Suwi_W : W ;
+    Tawa_W : W ;
     Telo_W : W ;
     Tenpo_W : W ;
     Toki_W : W ;
@@ -114,22 +114,15 @@ abstract TokiponaBase = GrammarBase ** {
 
     Kepeken_Prep : Prep ;
     Lon_Prep : Prep ;
-    Poka_Prep : Prep ;
     Sama_Prep : Prep ;
     Tan_Prep : Prep ;
     Tawa_Prep : Prep ;
 
     A_Ij : Interj ;
-    Ala_Ij : Interj ;
-    Ike_Ij : Interj ;
-    Jaki_Ij : Interj ;
     Kin_Ij : Interj ;
     Mu_Ij : Interj ;
     O_Ij : Interj ;
-    Pakala_Ij : Interj ;
-    Pona_Ij : Interj ;
     Taso_Ij : Interj ;
-    Toki_Ij : Interj ;
 
     Ala_Num : Num ;
     Ale_Num : Num ;
