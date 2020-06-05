@@ -9,7 +9,7 @@ Generate GF script:
 
 Parse phrases using the treebank-script:
 
-    gf ../../../grammar/Tokipona.gf <./treebank.gf >parsed
+    gf ../../grammar/Tokipona.gf <./treebank.gf >parsed
 
 * Open `parsed` for manual review.
 * To check if there are errors, search for the word `failed`

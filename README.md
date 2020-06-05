@@ -76,6 +76,10 @@ Each entry has:
 - `tp`: Toki Pona equivalent of the English phrase,
 - `gf`: preferred parse tree for the Toke Pona phrase.
 
+#### PU treebank
+
+The file `./external/pu_phrases/treebank.txt` contains all the phrases from the official Toki Pona book.
+
 ## Test
 
 The file `treebank.json` is a test fixture.  To check the conversion:
@@ -89,6 +93,7 @@ or individually:
 ```
 $ make test-parse
 $ make test-linearize # or just test-lin
+$ make test-pu-parse
 ```
 
 Use a regular expression in `--grep` to check a specific example:
