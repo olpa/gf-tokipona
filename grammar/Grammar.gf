@@ -3,7 +3,7 @@ concrete Grammar of GrammarBase = open Resources in {
     S, Cl, Fragment = {s: Str} ;
     NP = {s: Str; isPronomen: Bool} ;
     VP, A, PrepP = {s: Str} ;
-    W, PreV, Prep, Interj, Num, Pred, PredInfix = {s: Str} ;
+    W, PreV, Prep, Interj, Num, Pred, PredInfix, VCList = {s: Str} ;
   oper
     mkLi : Bool -> Str
       = \b -> table { True => []; _ => "li" } ! b ;
@@ -74,7 +74,10 @@ concrete Grammar of GrammarBase = open Resources in {
     WithContextSc cl ctx = {s = ctx.s ++ ":" ++ cl.s} ;
 
     AndNP np1 np2 = {s = np1.s ++ "en" ++ np2.s; isPronomen = False} ;
-    AndComplNP np1 np2 = {s = np1.s ++ "e" ++ np2.s; isPronomen = False} ;
+
+    ComplVL vp vcl = {s = vp.s ++ "e" ++ vcl.s} ;
+    VCListPair np1 np2 = {s = np1.s ++ "e" ++ np2.s} ;
+    VCListGrow vcl np = {s = vcl.s ++ "e" ++ np.s} ;
 
     UseCl cl = {s = cl.s ++ "."} ;
     ExclUseCl cl = {s = cl.s ++ "!"} ;

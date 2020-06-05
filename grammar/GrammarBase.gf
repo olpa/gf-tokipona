@@ -3,7 +3,7 @@ abstract GrammarBase = {
   cat
     S ; Cl ; Fragment ;
     NP ; VP ; A ; PrepP ;
-    W ; PreV ; Prep ; Interj ; Num ; Pred ; PredInfix ;
+    W ; PreV ; Prep ; Interj ; Num ; Pred ; PredInfix ; VCList ;
   fun
 
     --
@@ -280,7 +280,9 @@ abstract GrammarBase = {
     --
     --PU-- 3. Join multiple direct objects by repeating 'e'
     --
-    AndComplNP : NP -> NP -> NP ;
+    ComplVL : VP -> VCList -> Pred ;
+    VCListPair : NP -> NP -> VCList ;
+    VCListGrow : VCList -> NP -> VCList ;
 
     --
     -- To build a sentence, add '.', '?' or '!' to a clause.

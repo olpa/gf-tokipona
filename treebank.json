@@ -355,7 +355,7 @@
   },
   {
     "en": "My sister opened the first door and the second door.",
-    "gf": "UseCl (Clause (AdjNP (AdjNP (UseN Meli_W) (UseA Sama_W)) (UseA Mi_W)) (ComplV (UseV Open_W) (AndComplNP (AdjNP (UseN Lupa_W) (OrdinalA Wan_Num)) (AdjNP (UseN Lupa_W) (OrdinalA Tu_Num)))))",
+    "gf": "UseCl (Clause (AdjNP (AdjNP (UseN Meli_W) (UseA Sama_W)) (UseA Mi_W)) (ComplVL (UseV Open_W) (VCListPair (AdjNP (UseN Lupa_W) (OrdinalA Wan_Num)) (AdjNP (UseN Lupa_W) (OrdinalA Tu_Num)))))",
     "id": "tplangL16E05",
     "tp": "meli sama mi li open e lupa nanpa wan e lupa nanpa tu ."
   },
